@@ -1,0 +1,32 @@
+{% assign info = site.data.info.info %}
+<footer class="site-footer h-card">
+    <!-- <data class="u-url" href="{{ "/" | relative_url }}"></data> -->
+    <div class="wrapper">
+        <h2 class="footer-heading">{{ info.title | escape }}</h2>
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    <li class="p-name">
+                        {{info.name}}
+                    </li>
+                    {%- if info.email -%}
+                    <li><a class="u-email" href="mailto:{{ info.email }}">{{ info.email }}</a></li>
+                    {%- endif -%}
+                    {%- if info.orcid -%}
+                    <li><a target="blank" href="https://orcid.org/{{ info.orcid }}">orcid.org/{{ info.orcid }}</a></li>
+                    {%- endif -%}
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                {%- include social.html -%}
+            </div>
+
+            <div class="footer-col footer-col-3">
+                <p>{{- info.description | escape -}}</p>
+            </div>
+        </div>
+
+    </div>
+
+</footer>

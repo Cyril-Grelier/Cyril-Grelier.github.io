@@ -1,0 +1,35 @@
+teaching:
+  - course: Python
+    degree: Licence 1
+    university: Université d'Angers
+    time: 2021-2022
+    details: |
+      Base de développement en Python
+
+  - course: Bases d'informatique 2
+    degree: Licence 1
+    university: Université d'Angers
+    time: 2020-2021,2021-2022
+    details: |
+      Base d'Unix, cd, rm, ..., find, grep,...
+
+  - course: Développement web 1
+    degree: Licence 1
+    university: Université d'Angers
+    time: 2020-2021,2021-2022
+    details: |
+      web course (HTML5, CSS3)
+
+  - course: Culture numérique
+    degree: Licence 1
+    university: Université d'Angers
+    time: 2020-2021,2021-2022
+    details: |
+      Pix, outils informatiques, suite office,...
+
+  - course: Algorithmique 1
+    degree: Licence 1
+    university: Université d'Angers
+    time: 2020-2021,2021-2022
+    details: |
+      Base de la programmation en C++ (variables, conditions, boucles, fonctions,...)

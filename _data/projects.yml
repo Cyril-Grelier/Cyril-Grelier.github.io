@@ -1,0 +1,57 @@
+projects:
+  title: Students projects
+  # intro: >
+  #   info
+  assignments:
+    - title: Projet Thélème
+      time: 2020
+      link: "https://gitlab.com/Cyril-Grelier/emploisdutemps"
+      place: Université d'Angers
+      description: >
+        Projet de 6 mois sur la génération d'emplois du temps, programmation par contraintes, large neighborhood search et recherche locale.<br>
+        Encadrants: David Lesaint, Vincent Barichard, David Genest
+
+    - title: MuGen
+      time: 2019
+      link: "https://github.com/Cyril-Grelier/MuGen"
+      place: Université d'Angers
+      description: >
+        Projet de 4 semaines sur la génération de musique avec algorithmes génétiques et réseaux de neurones.<br>
+        Encadrant : Frédéric Saubion
+
+    - title: AlphaSMILES
+      time: 2019
+      link: "https://github.com/Cyril-Grelier/AlphaSMILES"
+      place: LERIA -- Moltech Anjou
+      description: >
+        Projet de 3 mois sur la génération de molécule avec de bonnes propriétés d'absorption de la lumière en utilisant les méthodes MCTS et RNN.<br>
+        Encadrants : Benoit Da Mota, Thomas Cauchy
+
+    - title: Cahier de Laboratoire
+      time: 2018
+      # link: "#hook"
+      place: Université d'Angers
+      description: >
+        Projet sur un semestre en équipe sur la création d'un site web visant à gérer un cahier de laboratoire en JEE avec Spring et Hibernate.
+
+    - title: FullMetal War
+      time: 2018
+      link: "https://github.com/SomathSatou/FullMetalWar"
+      place: Université d'Angers
+      description: >
+        Projet de 2 mois en équipe sur l'implémentation du jeu Fullmetal Planet et d'IA (Alpha-Beta et MCTS) en C++.<br>
+        Encadrant : Igor Stéphan
+
+    - title: Concours Hackathon, Hack4Health
+      time: 2016
+      # link: "#hook"
+      place: Halmstad University
+      description: >
+        24h de gestion de projet avec une équipe de 6 personnes de nationalités différentes et création d'un site web pour aider les mères et leur entourage lors de l'arrivée d'un nouveau né.
+
+    - title: Médiation scientifique
+      time: 2015
+      # link: "#hook"
+      place: IUT d'Angers -- collège saint Jean de la Barre
+      description: >
+        7 séances de découverte auprès de 14 collégiens avec l'association Terre des Sciences dans le domaine de la programmation (Scratch) et de la robotique (Lego EV3).

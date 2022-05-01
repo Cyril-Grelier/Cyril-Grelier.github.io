@@ -1,0 +1,29 @@
+publications:
+  kind:
+    - title: Preprints
+      # intro: |
+      #   Pre print
+      papers:
+        - title: A deep learning guided memetic framework for graph coloring problems
+          link: "https://arxiv.org/abs/2109.05948"
+          authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
+          # conference:
+    - title: Papers in Conference Proceedings
+      # intro: |
+      #   the conferences
+      papers:
+        - title: On monte carlo tree search for weighted vertex voloring
+          link: "https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1"
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022)
+          code: "https://github.com/Cyril-Grelier/gc_wvcp_mcts"
+          preprint: "https://arxiv.org/abs/2202.01665"
+
+    - title: Presentations in National Conferences
+      # intro: |
+      #   the conferences
+      papers:
+        - title: Recherche arborescente Monte-Carlo pour la coloration de graphe pondéré
+          link: "https://roadef2022.sciencesconf.org/378355"
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: ROADEF 2022
