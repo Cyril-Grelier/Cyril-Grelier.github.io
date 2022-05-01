@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Welcome !
+<h1>Welcome !</h1>
 
 I will use this page as my CV for now.
 
