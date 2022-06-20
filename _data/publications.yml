@@ -12,7 +12,7 @@ publications:
       # intro: |
       #   the conferences
       papers:
-        - title: On monte carlo tree search for weighted vertex voloring
+        - title: On Monte Carlo Tree Search for weighted vertex coloring
           link: "https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1"
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022)

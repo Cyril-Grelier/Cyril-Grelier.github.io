@@ -11,19 +11,9 @@ order: 1
     <ul>
         {% for graduation in education %}
         <li>
-            <div>
-                <div>
-                    <span class="degree">{{ graduation.degree }}</span>
-                    {% if graduation.degreefr %}
-                    <br>
-                    <span class="degreefr">{{ graduation.degreefr }}</span>
-                    {% endif %}
-                </div>
-                <div>
-                    <span class="time">{{ graduation.time }}</span> - 
-                    <span class="university">{{ graduation.university }}</span>
-                </div>
-            </div>
+            <span class="degree">{{ graduation.degree }}</span><br>
+            <span class="degreefr">{{ graduation.degreefr }}</span><br>
+            <span class="time">{{ graduation.time }}</span> - <span class="university">{{ graduation.university }}</span>
             {% if graduation.details %}
             <div class="details">
                 {{ graduation.details | markdownify }}

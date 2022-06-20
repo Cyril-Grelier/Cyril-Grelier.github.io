@@ -8,20 +8,17 @@ permalink: /teaching/
 
 <section>
     <ul>
-    {% for course in teaching %}
-    <li>
-        <div>
-            <div>{{ course.course }}</div>
-            <div>
-                <span class="university">{{ course.university }}</span> - <span class="time">{{ course.time }}</span>
-            </div>
-        </div>
-        {% if course.details %}
-        <div>
+        {% for course in teaching %}
+        <li>
+            {{ course.course }}<br>
+            <span class="university">{{ course.university }}</span>
+            <br>
+            <span class="time">{{ course.time }}</span>
+            {% if course.details %}
+            <br>
             {{ course.details | markdownify }}
-        </div>
-        {% endif %}
-    </li>
-    {% endfor %}
+            {% endif %}
+        </li>
+        {% endfor %}
     </ul>
 </section>

@@ -1,6 +1,6 @@
 education:
-  - degree: Phd Thesis
-    degreefr: Doctorat
+  - degree: Phd Thesis (in progress)
+    degreefr: Doctorat (en cours)
     university: Université d'Angers
     time: 2020 - today
     details: |
@@ -19,10 +19,11 @@ education:
     details: |
       Mention bien - with high honours
   - degree: ERASMUS Sweden
+    degreefr: ERASMUS Suède
     university: Halmstad University
     time: 2016
     details: |
-      English, Matlab, Web and Java courses
+      English, Matlab, Web and Java courses, one semester
   - degree: Associate’s Degree in Electrical Engineering and Industrial Computing
     degreefr: DUT GEII - Génie Électrique et Informatique Industrielle
     university: IUT Angers
