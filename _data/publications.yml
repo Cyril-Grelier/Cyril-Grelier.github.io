@@ -1,13 +1,15 @@
 publications:
   kind:
-    - title: Preprints
+    - title: Journal paper
       # intro: |
       #   Pre print
       papers:
         - title: A deep learning guided memetic framework for graph coloring problems
-          link: "https://arxiv.org/abs/2109.05948"
+          link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796"
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
-          # conference:
+          conference: Knowledge-Based Systems. Volume 258, 22 December 2022, 109986
+          preprint: "https://arxiv.org/abs/2109.05948"
+          code: "https://github.com/GoudetOlivier/DLMCOL_WVCP"
     - title: Papers in Conference Proceedings
       # intro: |
       #   the conferences
