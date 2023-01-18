@@ -1,22 +1,29 @@
 teaching:
+  - course: Algorithmique des graphes
+    degree: Licence 3
+    university: Université d'Angers
+    time: 2022-2023(8h-TP)
+    details: |
+      Implémentation d'algorithmes autour des graphes (BFS, DFS, Dijkstra, Prim, Kruskal, ...)
+
   - course: Python
     degree: Licence 1
     university: Université d'Angers
-    time: 2021-2022(16h-TP)
+    time: 2021-2022,2022-2023(16h-TP)
     details: |
       Base de développement en Python
 
-  - course: Bases d'informatique 2
+  - course: Bases d'informatique 2 - Linux
     degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(12h-TP),2021-2022(8h-TP)
+    time: 2020-2021(12h-TP),2021-2022,2022-2023(8h-TP)
     details: |
       Base des commandes Unix
 
   - course: Développement web 1
     degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(12h-TP),2021-2022(20h-TP)
+    time: 2020-2021(12h-TP),2021-2022,2022-2023(20h-TP)
     details: |
       web course (HTML5, CSS3)
 
@@ -30,6 +37,6 @@ teaching:
   - course: Algorithmique 1
     degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(24h-TP),2021-2022(12h-TP)
+    time: 2020-2021(24h-TP),2021-2022,2022-2023(12h-TP)
     details: |
       Base de la programmation en C++ (variables, conditions, boucles, fonctions,...)
