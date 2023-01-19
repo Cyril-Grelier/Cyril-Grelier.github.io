@@ -5,6 +5,7 @@ permalink: /publications/
 ---
 
 {% assign publications = site.data.publications.publications %}
+
 <section>
     {% for publication in publications.kind %}
         <h3>{{publication.title}}</h3>
@@ -33,7 +34,7 @@ permalink: /publications/
                 <a href="{{ paper.preprint }}">preprint</a>
             {% endif %}
             {% if paper.presentation %}
-                <a href="{{ paper.presentation }}">presentation</a>
+                <a href="{{ paper.presentation }}">slides</a>
             {% endif %}
             </li>
         {% endfor %}

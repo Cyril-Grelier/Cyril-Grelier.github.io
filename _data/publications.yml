@@ -1,8 +1,6 @@
 publications:
   kind:
     - title: Journal paper
-      # intro: |
-      #   Pre print
       papers:
         - title: A deep learning guided memetic framework for graph coloring problems
           link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796"
@@ -20,7 +18,7 @@ publications:
           conference: Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022)
           code: "https://github.com/Cyril-Grelier/gc_wvcp_mcts"
           preprint: "https://arxiv.org/abs/2202.01665"
-
+          presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
     - title: Presentations in National Conferences
       # intro: |
       #   the conferences
@@ -29,3 +27,5 @@ publications:
           link: "https://roadef2022.sciencesconf.org/378355"
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: ROADEF 2022
+          presentation: ../assets/pdf/presentation_MCTS_ROADEF_2022.pdf
+
