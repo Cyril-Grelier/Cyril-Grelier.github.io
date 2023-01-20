@@ -18,7 +18,7 @@ permalink: /publications/
         {% for paper in publication.papers %}
             <li>
             {% if paper.link %}
-                <a href="{{ paper.link }}">{{ paper.title }}</a>
+                <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
             {% else %}
                 {{ paper.title }}
             {% endif %}
@@ -28,13 +28,13 @@ permalink: /publications/
             {{ paper.conference }}
             <br>
             {% if paper.code %}
-                <a href="{{ paper.code }}">code</a>
+                <a href="{{ paper.code }}" target="_blank">code</a>
             {% endif %}
             {% if paper.preprint %}
-                <a href="{{ paper.preprint }}">preprint</a>
+                <a href="{{ paper.preprint }}" target="_blank">preprint</a>
             {% endif %}
             {% if paper.presentation %}
-                <a href="{{ paper.presentation }}">slides</a>
+                <a href="{{ paper.presentation }}" target="_blank">slides</a>
             {% endif %}
             </li>
         {% endfor %}
