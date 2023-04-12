@@ -19,6 +19,12 @@ publications:
           code: "https://github.com/Cyril-Grelier/gc_wvcp_mcts"
           preprint: "https://arxiv.org/abs/2202.01665"
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
+        - title: "Monte Carlo Tree Search with Adaptive Simulation: A Case Study on Weighted Vertex Coloring"
+          link: "#"
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: Proceedings of the 23nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2023)
+          code: "https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts"
+          presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2023.pdf
     - title: Presentations in National Conferences
       # intro: |
       #   the conferences
