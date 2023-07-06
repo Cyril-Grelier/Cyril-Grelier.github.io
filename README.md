@@ -2,9 +2,12 @@
 
 Website : https://cyril-grelier.github.io/
 
-install ruby and
-sudo apt install ruby-bundler
-gem install bundler:2.3.12
-gem install nokogiri
-bundle install
-bundle exec jekyll serve
+Local : http://localhost:4000
+
+To run in local:
+
+    docker-compose up -d
+
+To see the logs:
+
+    docker-compose logs -f

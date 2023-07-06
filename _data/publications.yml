@@ -1,41 +1,60 @@
+---
 publications:
   kind:
     - title: Journal paper
       papers:
         - title: A deep learning guided memetic framework for graph coloring problems
-          link: "https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796"
+          link: https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
           conference: Knowledge-Based Systems. Volume 258, 22 December 2022, 109986
-          preprint: "https://arxiv.org/abs/2109.05948"
-          code: "https://github.com/GoudetOlivier/DLMCOL_WVCP"
+          preprint: https://arxiv.org/abs/2109.05948
+          code: https://github.com/GoudetOlivier/DLMCOL_WVCP
     - title: Papers in Conference Proceedings
       # intro: |
       #   the conferences
       papers:
         - title: On Monte Carlo Tree Search for weighted vertex coloring
-          link: "https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1"
+          link: https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022)
-          code: "https://github.com/Cyril-Grelier/gc_wvcp_mcts"
-          preprint: "https://arxiv.org/abs/2202.01665"
+          conference:
+            Proceedings of the 22nd European Conference on Evolutionary
+            Computation in Combinatorial Optimization (EvoCOP 2022)
+          code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
+          preprint: https://arxiv.org/abs/2202.01665
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
-        - title: "Monte Carlo Tree Search with Adaptive Simulation: A Case Study on Weighted Vertex Coloring"
-          link: "#"
+        - title:
+            "Monte Carlo Tree Search with Adaptive Simulation: A Case Study on
+            Weighted Vertex Coloring"
+          link: https://link.springer.com/chapter/10.1007/978-3-031-30035-6_7
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: Proceedings of the 23nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2023)
-          code: "https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts"
+          conference:
+            Proceedings of the 23nd European Conference on Evolutionary
+            Computation in Combinatorial Optimization (EvoCOP 2023)
+          code: https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2023.pdf
     - title: Presentations in National Conferences
       # intro: |
       #   the conferences
       papers:
         - title: Recherche arborescente Monte-Carlo pour la coloration de graphe pondéré
-          link: "https://roadef2022.sciencesconf.org/378355"
+          link: https://roadef2022.sciencesconf.org/378355
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: ROADEF 2022
           presentation: ../assets/pdf/presentation_MCTS_ROADEF_2022.pdf
-        - title: Sélection automatique d'opérateurs dans un arbre de recherche de Monte-Carlo pour la coloration de graphe pondéré
-          link: "https://roadef2023.sciencesconf.org/434735"
+        - title:
+            Sélection automatique d'opérateurs dans un arbre de recherche de
+            Monte-Carlo pour la coloration de graphe pondéré
+          link: https://roadef2023.sciencesconf.org/434735
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: ROADEF 2023
           presentation: ../assets/pdf/presentation_MCTS_ROADEF_2023.pdf
+    - title: Preprint
+      papers:
+        - title:
+            Combining Monte Carlo Tree Search and Heuristic Search for Weighted
+            Vertex Coloring
+          link: https://arxiv.org/abs/2304.12146
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: extended version of the paper "On Monte Carlo Tree Search for weighted vertex coloring" accepted at EvoCOP 2022
+          code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
+          presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
