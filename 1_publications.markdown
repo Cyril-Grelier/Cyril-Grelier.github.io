@@ -16,7 +16,11 @@ permalink: /publications/
         {% endif %}
         <ul>
         {% for paper in publication.papers %}
-            <li>
+            {% if paper.id %}
+            <li id="{{ paper.id }}">
+            {% else %}
+                <li>
+            {% endif %}
             {% if paper.link %}
                 <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
             {% else %}
@@ -35,6 +39,9 @@ permalink: /publications/
             {% endif %}
             {% if paper.presentation %}
                 <a href="{{ paper.presentation }}" target="_blank">slides</a>
+            {% endif %}
+            {% if paper.demo %}
+                <a href="{{ paper.demo }}" target="_blank">demo</a>
             {% endif %}
             </li>
         {% endfor %}

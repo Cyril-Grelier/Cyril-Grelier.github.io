@@ -9,19 +9,19 @@ publications:
           conference: Knowledge-Based Systems. Volume 258, 22 December 2022, 109986
           preprint: https://arxiv.org/abs/2109.05948
           code: https://github.com/GoudetOlivier/DLMCOL_WVCP
+          id: KBS2022
     - title: Papers in Conference Proceedings
       # intro: |
       #   the conferences
       papers:
-        - title: On Monte Carlo Tree Search for weighted vertex coloring
-          link: https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1
-          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference:
-            Proceedings of the 22nd European Conference on Evolutionary
-            Computation in Combinatorial Optimization (EvoCOP 2022)
-          code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
-          preprint: https://arxiv.org/abs/2202.01665
-          presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
+        - title: "New Bounds and Constraint Programming Models for the Weighted Vertex Coloring Problem"
+          link: https://www.ijcai.org/proceedings/2023/214
+          authors: Olivier Goudet, Cyril Grelier, David Lesaint
+          conference: Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI 2023)
+          code: https://github.com/Cyril-Grelier/gc_wvcp_cp
+          presentation: ../assets/pdf/presentation_CP_IJCAI_2023.pdf
+          id: IJCAI2023
+          demo: https://cyril-grelier.github.io/graph_coloring/2023/11/10/demo_reduction.html
         - title:
             "Monte Carlo Tree Search with Adaptive Simulation: A Case Study on
             Weighted Vertex Coloring"
@@ -32,15 +32,21 @@ publications:
             Computation in Combinatorial Optimization (EvoCOP 2023)
           code: https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2023.pdf
+          id: EVOCOP2023
+        - title: On Monte Carlo Tree Search for weighted vertex coloring
+          link: https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference:
+            Proceedings of the 22nd European Conference on Evolutionary
+            Computation in Combinatorial Optimization (EvoCOP 2022)
+          code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
+          preprint: https://arxiv.org/abs/2202.01665
+          presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
+          id: EVOCOP2022
     - title: Presentations in National Conferences
       # intro: |
       #   the conferences
       papers:
-        - title: Recherche arborescente Monte-Carlo pour la coloration de graphe pondéré
-          link: https://roadef2022.sciencesconf.org/378355
-          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: ROADEF 2022
-          presentation: ../assets/pdf/presentation_MCTS_ROADEF_2022.pdf
         - title:
             Sélection automatique d'opérateurs dans un arbre de recherche de
             Monte-Carlo pour la coloration de graphe pondéré
@@ -48,6 +54,13 @@ publications:
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: ROADEF 2023
           presentation: ../assets/pdf/presentation_MCTS_ROADEF_2023.pdf
+          id: ROADEF2023
+        - title: Recherche arborescente Monte-Carlo pour la coloration de graphe pondéré
+          link: https://roadef2022.sciencesconf.org/378355
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: ROADEF 2022
+          presentation: ../assets/pdf/presentation_MCTS_ROADEF_2022.pdf
+          id: ROADEF2022
     - title: Preprint
       papers:
         - title:
@@ -58,3 +71,4 @@ publications:
           conference: extended version of the paper "On Monte Carlo Tree Search for weighted vertex coloring" accepted at EvoCOP 2022
           code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
+          id: EVOCOP2022_extended
