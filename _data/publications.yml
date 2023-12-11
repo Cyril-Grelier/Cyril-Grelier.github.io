@@ -55,6 +55,11 @@ publications:
           conference: ROADEF 2023
           presentation: ../assets/pdf/presentation_MCTS_ROADEF_2023.pdf
           id: ROADEF2023
+        - title: Algorithme mémétique guidé par l'apprentissage profond pour des problèmes de coloration de graphes
+          link: https://roadef2023.sciencesconf.org/434898
+          authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
+          conference: ROADEF 2023
+          id: ROADEF2023_b
         - title: Recherche arborescente Monte-Carlo pour la coloration de graphe pondéré
           link: https://roadef2022.sciencesconf.org/378355
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
@@ -72,3 +77,12 @@ publications:
           code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
           id: EVOCOP2022_extended
+    - title: Thesis
+      papers:
+        - title: Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe
+          # link:
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: Thèse de doctorat
+          # code:
+          presentation: ../assets/pdf/presentation_these.pdf
+          id: these
