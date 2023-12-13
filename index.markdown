@@ -7,6 +7,6 @@ layout: home
 
 <h1>Welcome !</h1>
 
-I will use this page as my CV for now.
-
-I am currently a PhD student at the University of Angers and at the LERIA. The goal of my thesis is to use deep learning to guide metaheuristics in their exploration of complex search spaces of problems such as the graph coloring problem in order to find better solutions, select appropriate operators, diversify the exploration,...
+I'm currently a research engineer at LERIA, University of Angers, France.
+My thesis is about learning-guided metaheuristics for graph coloring problems.
+I have mainly worked with local search, memetic algorithms, MCTS and hyperheuristics, as well as on some neural networks and constraint programming.

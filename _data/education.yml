@@ -1,11 +1,12 @@
 education:
-  - degree: Phd Thesis (in progress)
-    degreefr: Doctorat (en cours)
+  - degree: Phd in computer science
+    degreefr: Doctorat en informatique
     university: Université d'Angers
-    time: 2020 - today
+    time: 2023
     details: |
-      Deep learning guided metaheuristics with application to graph coloring.<br>
-      Supervisors : [Jin-Kao Hao](https://leria-info.univ-angers.fr/~jinkao.hao/) - Olivier Goudet
+      Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe.<br>
+      Learning-Guided Metaheuristics for Graph Coloring.<br>
+      Supervisors : <a href="https://leria-info.univ-angers.fr/~jinkao.hao/" target="_blank">Jin-Kao Hao</a> - <a href="https://leria-info.univ-angers.fr/~o.goudet/" target="_blank">Olivier Goudet</a>
   - degree: Master's degree in computer science
     degreefr: Master Intelligence Décisionnelle
     university: Université d'Angers
