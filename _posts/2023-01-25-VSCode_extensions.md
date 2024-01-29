@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VSCode extensions"
-categories: python
+categories: [vscode, bash, c, c++, htmh, css, rust, ssh, python]
 ---
 
 This is a list of useful extensions for VSCode.

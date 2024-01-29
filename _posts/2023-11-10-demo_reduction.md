@@ -4,6 +4,8 @@ title: "Reduction"
 categories: graph_coloring
 ---
 
+This post is a demo of the reduction of vertices (see article <a href="https://cyril-grelier.github.io/publications/#IJCAI2023">IJCAI2023</a>).
+
 <style>
 .svg_red {
   /* border: 1px solid black; */

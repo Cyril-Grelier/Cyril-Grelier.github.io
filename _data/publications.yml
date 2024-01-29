@@ -80,7 +80,7 @@ publications:
     - title: Thesis
       papers:
         - title: Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe
-          # link:
+          link: https://www.theses.fr/s264016
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: Thèse de doctorat
           # code:
