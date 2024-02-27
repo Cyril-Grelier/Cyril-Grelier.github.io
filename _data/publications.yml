@@ -14,6 +14,14 @@ publications:
       # intro: |
       #   the conferences
       papers:
+        - title: A memetic algorithm with adaptive operator selection for graph coloring
+          # link: https://hal.science/hal-04457706
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: Proceedings of the 24nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2024)
+          code: https://github.com/Cyril-Grelier/gcp_ahead
+          preprint: https://hal.science/hal-04457706
+          # presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2024.pdf
+          id: EVOCOP2024
         - title: "New Bounds and Constraint Programming Models for the Weighted Vertex Coloring Problem"
           link: https://www.ijcai.org/proceedings/2023/214
           authors: Olivier Goudet, Cyril Grelier, David Lesaint
@@ -47,6 +55,13 @@ publications:
       # intro: |
       #   the conferences
       papers:
+        - title:
+            Algorithme mémétique avec sélection automatique d'opérateurs pour la coloration de graphe
+          link: https://roadef2024.sciencesconf.org/509999
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: ROADEF 2024
+          # presentation: ../assets/pdf/presentation_MCTS_ROADEF_2024.pdf
+          id: ROADEF2024
         - title:
             Sélection automatique d'opérateurs dans un arbre de recherche de
             Monte-Carlo pour la coloration de graphe pondéré
