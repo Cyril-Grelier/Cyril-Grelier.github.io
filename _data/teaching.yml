@@ -2,9 +2,9 @@ teaching:
   - course: Algorithmique des graphes
     degree: Licence 3
     university: Université d'Angers
-    time: 2022-2023(8h-TP)
+    time: 2022-2023(8h-TP), 2023-2024(2x8h-TP)
     details: |
-      Implémentation d'algorithmes autour des graphes (BFS, DFS, Dijkstra, Prim, Kruskal, ...)
+      Implémentation d'algorithmes pour les graphes (BFS, DFS, Dijkstra, Prim, Kruskal, ...)
 
   - course: Python
     degree: Licence 1
