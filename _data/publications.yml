@@ -6,7 +6,7 @@ publications:
         - title: A deep learning guided memetic framework for graph coloring problems
           link: https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
-          conference: Knowledge-Based Systems. Volume 258, 22 December 2022, 109986
+          conference: Knowledge-Based Systems. Volume 258, 22 December 2022, pp.109986
           # preprint: https://arxiv.org/abs/2109.05948
           hal: https://hal.science/hal-03846652
           code: https://github.com/GoudetOlivier/DLMCOL_WVCP
@@ -16,7 +16,6 @@ publications:
       # intro: |
       #   the conferences
       papers:
-
         - title: A memetic algorithm with adaptive operator selection for graph coloring
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: Proceedings of the 24nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2024)
@@ -60,7 +59,6 @@ publications:
       # intro: |
       #   the conferences
       papers:
-
         - title: Algorithme mémétique avec sélection automatique d'opérateurs pour la coloration de graphe
           link: https://roadef2024.sciencesconf.org/509999
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
@@ -82,7 +80,7 @@ publications:
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
           conference: ROADEF 2023
           id: ROADEF2023_b
-          hal : https://hal.science/hal-04041707
+          hal: https://hal.science/hal-04041707
 
         - title: Recherche arborescente Monte-Carlo pour la coloration de graphe pondéré
           link: https://roadef2022.sciencesconf.org/378355
@@ -94,7 +92,6 @@ publications:
 
     - title: Preprint
       papers:
-
         - title: Combining Monte Carlo Tree Search and Heuristic Search for Weighted Vertex Coloring
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: extended version of the paper "On Monte Carlo Tree Search for weighted vertex coloring" accepted at EvoCOP 2022
@@ -105,10 +102,10 @@ publications:
 
     - title: Thesis
       papers:
-
         - title: Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe
           link: https://www.theses.fr/s264016
-          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          authors: Cyril Grelier
           conference: Thèse de doctorat en Informatique, Université d'Angers, France, 12 décembre 2023
           presentation: ../assets/pdf/presentation_these.pdf
           id: these
+          hal: https://theses.hal.science/tel-04523127
