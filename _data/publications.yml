@@ -17,6 +17,7 @@ publications:
       #   the conferences
       papers:
         - title: A memetic algorithm with adaptive operator selection for graph coloring
+          link: https://link.springer.com/chapter/10.1007/978-3-031-57712-3_5
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: Proceedings of the 24nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2024)
           code: https://github.com/Cyril-Grelier/gcp_ahead
