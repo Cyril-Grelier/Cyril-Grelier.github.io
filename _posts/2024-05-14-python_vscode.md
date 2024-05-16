@@ -4,6 +4,8 @@ title: "How to create a Python project with VSCode and GitHub"
 categories: [python, vscode, github]
 ---
 
+This post is a guide to help you create a new Python project with its own virtual environment using VSCode/VSCodium and GitHub.
+
 - [Introduction](#introduction)
 - [Installing VSCode Python extensions](#installing-vscode-python-extensions)
 - [Creating a new repository on github](#creating-a-new-repository-on-github)
