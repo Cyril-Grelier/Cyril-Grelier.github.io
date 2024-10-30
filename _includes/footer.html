@@ -14,8 +14,9 @@
                     {%- endif -%}
                     {%- if info.orcid -%}
                     <!-- <li><a target="blank" href="https://orcid.org/{{ info.orcid }}">orcid.org/{{ info.orcid }}</a></li> -->
-                    <li><a href="https://orcid.org/{{ info.orcid }}"><svg class="svg-icon">
-                                <use class="grayscale" xlink:href="{{ '/assets/minima-social-icons.svg#orcid' | relative_url }}"></use>
+                    <li><a href="https://orcid.org/{{ info.orcid }}" target="_blank"><svg class="svg-icon">
+                                <use class="grayscale"
+                                    xlink:href="{{ '/assets/minima-social-icons.svg#orcid' | relative_url }}"></use>
                             </svg>
                             <span class="username">{{ info.orcid }}</span>
                         </a></li>
@@ -26,8 +27,11 @@
 
                     {%- if info.google_scholar -%}
                     <li>
-                        <a href="https://scholar.google.com/citations?user={{ info.google_scholar| cgi_escape | escape }}"><svg class="svg-icon">
-                                <use class="grayscale" xlink:href="{{ '/assets/minima-social-icons.svg#google_scholar' | relative_url }}"></use>
+                        <a href="https://scholar.google.com/citations?user={{ info.google_scholar| cgi_escape | escape }}"
+                            target="_blank"><svg class="svg-icon">
+                                <use class="grayscale"
+                                    xlink:href="{{ '/assets/minima-social-icons.svg#google_scholar' | relative_url }}">
+                                </use>
                             </svg>
                             <span class="username">Google Scholar</span>
                         </a>

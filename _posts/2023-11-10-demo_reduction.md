@@ -4,7 +4,7 @@ title: "Reduction"
 categories: graph_coloring
 ---
 
-This post is a demo of the reduction of vertices (see article <a href="https://cyril-grelier.github.io/publications/#IJCAI2023">IJCAI2023</a>).
+This post is a demo of the reduction of vertices (see article <a href="https://cyril-grelier.github.io/publications/#IJCAI2023" target="_blank">IJCAI2023</a>).
 
 <style>
 .svg_red {
@@ -47,7 +47,7 @@ This post is a demo of the reduction of vertices (see article <a href="https://c
 }
 </style>
 
-<p>Reduction of vertices (see article <a href="https://cyril-grelier.github.io/publications/#IJCAI2023">IJCAI2023</a>).</p>
+<p>Reduction of vertices (see article <a href="https://cyril-grelier.github.io/publications/#IJCAI2023" target="_blank">IJCAI2023</a>).</p>
 <p>Choose the graph with the menu, check original version or uncheck for reduced one, checking WVCP add weights to the graph (no reduced version of 0_test).
 Choose the rules to apply and click on "Reduction" button. If "don't stop" is checked, the reduction will be applied until no more vertices can be reduced. Otherwise, click the "play" button to apply the reduction one step at a time.</p>
 

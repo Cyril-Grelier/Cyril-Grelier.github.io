@@ -1,6 +1,6 @@
 <ul class="social-media-list">
     {%- if info.dribbble_username -%}
-    <li><a href="https://dribbble.com/{{ info.dribbble_username| cgi_escape | escape }}">
+    <li><a href="https://dribbble.com/{{ info.dribbble_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use>
             </svg>
@@ -10,7 +10,7 @@
     {%- endif -%}
     {%- if info.facebook_username -%}
     <li>
-        <a href="https://www.facebook.com/{{ info.facebook_username| cgi_escape | escape }}">
+        <a href="https://www.facebook.com/{{ info.facebook_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use>
             </svg>
@@ -20,7 +20,7 @@
     {%- endif -%}
     {%- if info.flickr_username -%}
     <li>
-        <a href="https://www.flickr.com/photos/{{ info.flickr_username| cgi_escape | escape }}">
+        <a href="https://www.flickr.com/photos/{{ info.flickr_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#flickr' | relative_url }}"></use>
             </svg>
@@ -30,7 +30,8 @@
     {%- endif -%}
     {%- if info.github_username -%}
     <li>
-        <a href="https://github.com/{{ info.github_username| cgi_escape | escape }}"><svg class="svg-icon">
+        <a href="https://github.com/{{ info.github_username| cgi_escape | escape }}" target="_blank"><svg
+                class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
             </svg>
             <span class="username">{{ info.github_username| escape }}</span>
@@ -39,7 +40,8 @@
     {%- endif -%}
     {%- if info.gitlab_username -%}
     <li>
-        <a href="https://gitlab.com/{{ info.gitlab_username| cgi_escape | escape }}"><svg class="svg-icon">
+        <a href="https://gitlab.com/{{ info.gitlab_username| cgi_escape | escape }}" target="_blank"><svg
+                class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#gitlab' | relative_url }}"></use>
             </svg>
             <span class="username">{{ info.gitlab_username| escape }}</span>
@@ -48,7 +50,7 @@
     {%- endif -%}
     {%- if info.instagram_username -%}
     <li>
-        <a href="https://instagram.com/{{ info.instagram_username| cgi_escape | escape }}">
+        <a href="https://instagram.com/{{ info.instagram_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
             </svg>
@@ -58,7 +60,7 @@
     {%- endif -%}
     {%- if info.linkedin_username -%}
     <li>
-        <a href="https://www.linkedin.com/in/{{ info.linkedin_username| cgi_escape | escape }}">
+        <a href="https://www.linkedin.com/in/{{ info.linkedin_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
             </svg>
@@ -68,7 +70,7 @@
     {%- endif -%}
     {%- if info.pinterest_username -%}
     <li>
-        <a href="https://www.pinterest.com/{{ info.pinterest_username| cgi_escape | escape }}">
+        <a href="https://www.pinterest.com/{{ info.pinterest_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#pinterest' | relative_url }}"></use>
             </svg>
@@ -79,7 +81,7 @@
     {%- for mst in info.mastodon -%}
     {%- if mst.username and mst.instance -%}
     <li>
-        <a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}">
+        <a href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use>
             </svg>
@@ -90,7 +92,7 @@
     {%- endfor -%}
     {%- if info.twitter_username -%}
     <li>
-        <a href="https://www.twitter.com/{{ info.twitter_username| cgi_escape | escape }}">
+        <a href="https://www.twitter.com/{{ info.twitter_username| cgi_escape | escape }}" target="_blank">
             <svg class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
             </svg>
@@ -100,7 +102,8 @@
     {%- endif -%}
     {%- if info.youtube_username -%}
     <li>
-        <a href="https://youtube.com/{{ info.youtube_username| cgi_escape | escape }}"><svg class="svg-icon">
+        <a href="https://youtube.com/{{ info.youtube_username| cgi_escape | escape }}" target="_blank"><svg
+                class="svg-icon">
                 <use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use>
             </svg>
             <span class="username">{{ info.youtube_username| escape }}</span>

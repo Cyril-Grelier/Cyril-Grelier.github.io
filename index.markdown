@@ -7,6 +7,27 @@ layout: home
 
 <h1>Welcome !</h1>
 
-I'm currently a research engineer at LERIA, University of Angers, France.
-My thesis is about learning-guided metaheuristics for graph coloring problems.
-I have mainly worked with local search, memetic algorithms, MCTS and hyperheuristics, as well as on some neural networks and constraint programming.
+I'm currently a post-doc at <a href="https://www.loria.fr/" target="_blank">LORIA</a> in the team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a> (Université de Lorraine - Nancy France) working on metaheuristics and learning for the vehicle routing problem.
+
+<div id="index-div1" style="display: flex; justify-content: space-between;">
+    <div class="index-div2" style="width: 49%;">
+        <h2>Methods</h2>
+        <ul c>
+            <li>Local Search</li>
+            <li>Genetic and Memetic Algorithms</li>
+            <li>Monte Carlo Tree Search (MCTS)</li>
+            <li>Hyper-heuristics</li>
+            <li>Neural Networks</li>
+            <li>Constraint Programming</li>
+        </ul>
+    </div>
+    <div class="index-div2" style="width: 49%;">
+        <h2>Studied Problems</h2>
+        <ul>
+            <li>Graph Coloring</li>
+            <li>Timetabling</li>
+            <li>Chemistry (Optimization of Molecular Properties)</li>
+            <li>Vehicle Routing</li>
+        </ul>
+    </div>
+</div>

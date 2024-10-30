@@ -1,7 +1,6 @@
-version: '3'
 services:
     jekyll:
-        image: jekyll/jekyll:3.8.6
+        image: jekyll/jekyll
         container_name: github-pages
         environment:
             - JEKYILL_ENV=docker
@@ -11,6 +10,7 @@ services:
         # command: jekyll serve --host 0.0.0.0 --drafts --config _config.yml,_config_dev.yml
         # work on design - no incremental mode, no drafts, looks like production
         command: jekyll serve --host 0.0.0.0 --config _config.yml,_config_dev.yml --watch
+        # command: bundle install && bundle exec jekyll serve
         volumes:
             - .:/srv/jekyll
             - ./vendor/bundle:/usr/local/bundle
