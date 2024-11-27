@@ -1,7 +1,23 @@
 education:
+  - degree: Postdoctoral Researcher
+    degreefr: Post-doctorat
+    university: <a href="https://www.loria.fr/" target="_blank">LORIA</a>
+    time: 2024-2026
+    details: |
+      Algorithmes d’optimisation et d’apprentissage pour les problèmes de tournées de véhicules.<br>
+      Optimisation and learning algorithms for vehicle routing problems.<br>
+      Supervisor : <a href="https://scholar.google.fr/citations?user=QfUsJ6cAAAAJ&hl=fr" target="_blank">Ammar Oulamara</a>
+  - degree: Research Engineer
+    degreefr: Ingénieur de Recherche
+    university: <a href="https://leria.univ-angers.fr/" target="_blank">LERIA</a>
+    time: 2023-2024
+    details: |
+      Travail sur EvoMol, un algorithme évolutionnaire pour la génération de molécules.<br>
+      Work on EvoMol, an evolutionary algorithm for molecule generation.<br>
+      <a href="https://quchempedia.univ-angers.fr/athome/" target="_blank">QuChemPedIA</a> : <a href="https://scholar.google.fr/citations?user=vLmBgrEAAAAJ&hl=fr" target="_blank">Benoit Da Mota</a> - <a href="https://scholar.google.fr/citations?user=fiMQc1cAAAAJ&hl=fr" target="_blank">Thomas Cauchy</a>
   - degree: Phd in computer science
     degreefr: Doctorat en informatique
-    university: Université d'Angers
+    university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a> - <a href="https://leria.univ-angers.fr/" target="_blank">LERIA</a>
     time: 2023
     details: |
       Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe.<br>
@@ -9,31 +25,31 @@ education:
       Supervisors : <a href="https://leria-info.univ-angers.fr/~jinkao.hao/" target="_blank">Jin-Kao Hao</a> - <a href="https://leria-info.univ-angers.fr/~o.goudet/" target="_blank">Olivier Goudet</a>
   - degree: Master's degree in computer science
     degreefr: Master Intelligence Décisionnelle
-    university: Université d'Angers
+    university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a>
     time: 2020
     details: |
       Mention bien - with high honours
   - degree: Bachelor's degree in computer science
     degreefr: Licence Informatique
-    university: Université d'Angers
+    university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a>
     time: 2018
     details: |
       Mention bien - with high honours
   - degree: ERASMUS Sweden
     degreefr: ERASMUS Suède
-    university: Halmstad University
+    university: <a href="https://www.hh.se/" target="_blank">Halmstad University</a>
     time: 2016
     details: |
       English, Matlab, Web and Java courses, one semester
   - degree: Associate’s Degree in Electrical Engineering and Industrial Computing
     degreefr: DUT GEII - Génie Électrique et Informatique Industrielle
-    university: IUT Angers
+    university: <a href="https://www.univ-angers.fr/fr/acces-directs/facultes-et-instituts/iut/departements/geii.html" target="_blank">IUT Angers</a>
     time: 2016
     details: |
       Industrial computing specialization
   - degree: Year of scientific upgrading
     degreefr: ARS -- Année de Remise à niveau Scientifique
-    university: Université Catholique de l'Ouest
+    university: <a href="https://www.uco.fr/" target="_blank">Université Catholique de l'Ouest</a>
     time: 2014
     details: |
       Maths and physics courses
@@ -41,5 +57,11 @@ education:
     degreefr: BTS industrie plastique
     university: La Baronnerie
     time: 2013
+    details: |
+      Mention bien - with high honours
+  - degree: BETC National Diploma
+    degreefr: Bac Pro Plasturgie
+    university: La Baronnerie
+    time: 2011
     details: |
       Mention bien - with high honours

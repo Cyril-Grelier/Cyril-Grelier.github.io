@@ -1,4 +1,19 @@
 teaching:
+
+  - course: Recherche Opérationnelle
+    degree: Équivalent Licence 3
+    university: Mines Nancy
+    time: 2024-2025(20h TD)
+    details: |
+      Programmation linéaire, Dualité, AMPL, graphes, flots
+
+  - course: Bases de données
+    degree: Équivalent Licence 3
+    university: Polytech Nancy
+    time: 2024-2025(21h-CM/TD)
+    details: |
+      Modèle Entité-Association, Modèle Relationnel, SQL
+
   - course: Algorithmique des graphes
     degree: Licence 3
     university: Université d'Angers

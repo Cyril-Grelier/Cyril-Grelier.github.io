@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Education
-permalink: /education/
+title: Education & Career
+permalink: /education_career/
 order: 1
 ---
 
