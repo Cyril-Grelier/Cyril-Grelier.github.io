@@ -9,7 +9,7 @@ order: 1
 {% assign education = site.data.education.education %}
 <section>
     <ul>
-        {% for graduation in education %}
+    {% for graduation in education %}
         <li>
             <span class="degree">{{ graduation.degree }}</span><br>
             <span class="degreefr">{{ graduation.degreefr }}</span><br>

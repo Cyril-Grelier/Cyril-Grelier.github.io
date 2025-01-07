@@ -1,9 +1,8 @@
 # Cyril-Grelier.github.io
 
-Website : https://cyril-grelier.github.io/
+Website : <https://cyril-grelier.github.io/>
 
-Local : http://localhost:4000
-
+Local : <http://localhost:4000>
 
 To run in local:
 
