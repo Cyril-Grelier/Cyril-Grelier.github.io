@@ -55,15 +55,16 @@ To use AMPL in VSCode, configure the path to the AMPL executable:
 
 Follow these steps to write and run AMPL code (if you are a student from Les Mines Nancy):
 
-1. Download the archive `ampl_exercices.zip` from arche and extract it.
-2. Open the extracted folder in VSCode:
+1. Download the archives "AMPL examples" (under the pdf lesson on AMPL) and "AMPL data files" (in "Solutions to the exercises" section) from arche.
+2. Extract the archives (right-click and select `Extract Here`) and move all the files to the same folder (in a repertory called `ampl_exercises` for example).
+3. Open the folder in VSCode:
    - Use the menu: `File > Open Folder`.
    - Alternatively, in the terminal, navigate to the folder and type `code .`
-3. View the folder contents in the Explorer panel on the left side of the VSCode window.
-4. Open the files `e0_1_farmer.run` and `e0_1_farmer.mod`.
-5. Arrange the tabs to view the code side by side if needed.
-6. In the top-right corner of the `e0_1_farmer.run` file, click the button `AMPL: Include File` to run the file with AMPL.
-7. A terminal will open, displaying the results of the execution.
+4. View the folder contents in the Explorer panel on the left side of the VSCode window.
+5. Open the files `farmer.run` and `farmer.mod`.
+6. Arrange the tabs to view the code side by side if needed.
+7. In the top-right corner of the `farmer.run` file, click the button `AMPL: Include File` to run the file with AMPL.
+8. A terminal will open, displaying the results of the execution.
 
 ![Running AMPL Exercises](/assets/images/ampl_vscode/exercices.png)
 
