@@ -4,13 +4,6 @@
 
 @import "minima";
 
-.degree {
-    color: green;
-}
-
-.degreefr {
-    color: blue;
-}
 
 .time {
     color: gray;
@@ -18,4 +11,29 @@
 
 .grayscale {
     filter: grayscale(100%);
+}
+
+.hidden {
+    display: none;
+}
+
+
+.toggle-btn {
+    gap: 0.5rem;
+    background: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+    background: #1976D2;
+}
+
+.toggle-btn:active {
+    transform: scale(0.95);
 }
