@@ -13,13 +13,12 @@ The application case comes from the Operations Research course at Les Mines Nanc
   - [Original Formulation (in €/hectare, with actual units)](#original-formulation-in-hectare-with-actual-units)
   - [Rescaled Formulation](#rescaled-formulation)
   - [Graphical Representation](#graphical-representation)
-  - [AMPL Code (Primal)](#ampl-code-primal)
+  - [Primal AMPL Code](#primal-ampl-code)
 - [Dual Problem Formulation](#dual-problem-formulation)
-  - [AMPL Code (Dual)](#ampl-code-dual)
+  - [Dual AMPL Code](#dual-ampl-code)
 - [Primal-Dual Relationship](#primal-dual-relationship)
 - [Interpreting Slack and Body](#interpreting-slack-and-body)
 - [Conclusion](#conclusion)
-
 
 ## Application Case: Farmer's Problem
 
@@ -104,7 +103,7 @@ When the objective function is maximized, at the intersection of the two constra
 
 <div id="ggbApplet"></div>
 
-### AMPL Code (Primal)
+### Primal AMPL Code
 
 We can also solve this problem with [AMPL](https://ampl.com/), a modeling language for mathematical programming. See the [tutorial to install it](/ampl/vscode/2025/01/06/ampl_vscode.html).
 
@@ -201,10 +200,12 @@ $$\min \; b^T y \quad \text{ subject to } \quad A^T y \geq c, \quad y \geq 0.$$
 
 > Note:
 >
-> I did not explicitly include the non-negativity constraints $$-x \leq 0$$ to automatically remove the slack variables in the dual that are used to obtain the inequality constraints.
-> Otherwise, the dual would be in the form:
->
-> $$\min \; b^T y \quad \text{ subject to } \quad A^T y = c, \quad y \geq 0$$
+> For more details about the duality and the different forms of
+> the primal and dual problems, as well as the conversion
+> between them, you can look at the course or in the book
+> "Understanding and Using linear programming" by
+> Jiří Matoušek and Bernd Gärtner
+> (or any other book on linear programming, there are many).
 
 From the primal:
 
@@ -294,7 +295,7 @@ $$
 \end{aligned}
 $$
 
-### AMPL Code (Dual)
+### Dual AMPL Code
 
 We can write the AMPL code for the dual problem:
 
@@ -390,7 +391,7 @@ To better understand the values of the dual variables (shadow prices/dual prices
 
    They help decision-makers identify which resources are the most critical or limiting in the optimization problem.
 
-   In the [graphical representation](#graphical-representation) above, if you modify the constraint on the land from 12 to 16 (so 4*1k€ = 4k€) and the water constraint from 16 to 22(so 6*2k€ = 12k€), you will see that the optimal solution changes to (10, 6) with a profit from 44 to 60k€ (44 + 4 + 12).
+   In the [graphical representation](#graphical-representation) above, if you modify the constraint on the land from 12 to 16 (so 4\*1k€ = 4k€) and the water constraint from 16 to 22(so 6\*2k€ = 12k€), you will see that the optimal solution changes to (10, 6) with a profit from 44 to 60k€ (44 + 4 + 12).
 
 3. Connecting primal and dual solutions (complementary slackness):  
    - If a primal constraint has a positive dual value ($$y_i > 0$$), that primal constraint is binding (slack = 0).
@@ -418,7 +419,6 @@ Body in AMPL typically shows the current value of the left-hand side of the cons
 - In the primal, `land.body = 12` means the farmer is using all 12 hectares of land.
 - In the primal, `tomato_seed.body = 8` means $$x_t = 8$$. That satisfies the constraint $$x_t \leq 10$$, hence the slack is $$10-8=2$$.
 
-
 ## Conclusion
 
 Primal problem: Maximize profit by deciding how many hectares of tomatoes and potatoes to plant.
@@ -431,7 +431,6 @@ By strong duality, the two problems have the same optimal objective value of 44k
 - Dual solution: $$(y_1, y_2, y_3, y_4) = (1, 2, 0, 0)$$.
 
 Strong Duality guarantees that the maximum profit in the primal problem equals the minimum resource cost in the dual problem.
-
 
 <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 
