@@ -11,6 +11,9 @@ publications:
           hal: https://hal.science/hal-03846652
           code: https://github.com/GoudetOlivier/DLMCOL_WVCP
           id: KBS2022
+          doi: https://doi.org/10.1016/j.knosys.2022.109986
+          scimago: https://www.scimagojr.com/journalsearch.php?q=24772&tip=sid&clean=0
+          scimago_rank: Q1
 
     - title: Papers in Conference Proceedings
       # intro: |
@@ -19,47 +22,68 @@ publications:
         - title: A memetic algorithm with adaptive operator selection for graph coloring
           link: https://link.springer.com/chapter/10.1007/978-3-031-57712-3_5
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: Proceedings of the 24nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2024)
+          conference: "Proceedings of the 24th European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2024), 3-5 April 2024, Wales, UK, Lecture Notes in Computer Science 14632: 65–80, 2024  Springer."
           code: https://github.com/Cyril-Grelier/gcp_ahead
           presentation: ../assets/pdf/presentation_AHEAD_EVOCOP_2024.pdf
           poster: ../assets/pdf/poster_AHEAD_EVOCOP_2024.pdf
           id: EVOCOP2024
           hal: https://hal.science/hal-04457706
+          doi: https://doi.org/10.1007/978-3-031-57712-3_5
+          core: https://portal.core.edu.au/conf-ranks/2195/
+          core_rank: B
 
         - title: New Bounds and Constraint Programming Models for the Weighted Vertex Coloring Problem
           link: https://www.ijcai.org/proceedings/2023/214
           authors: Olivier Goudet, Cyril Grelier, David Lesaint
-          conference: Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI 2023)
+          conference: "Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI 2023). Main Track. Pages 1927-1934."
           code: https://github.com/Cyril-Grelier/gc_wvcp_cp
           presentation: ../assets/pdf/presentation_CP_IJCAI_2023.pdf
           poster: ../assets/pdf/poster_CP_IJCAI_2023.pdf
           id: IJCAI2023
           hal: https://hal.science/hal-04516525
           demo: https://cyril-grelier.github.io/graph_coloring/2023/11/10/demo_reduction.html
+          doi: https://doi.org/10.24963/ijcai.2023/214
+          core: https://portal.core.edu.au/conf-ranks/1313/
+          core_rank: A*
 
         - title: "Monte Carlo Tree Search with Adaptive Simulation: A Case Study on Weighted Vertex Coloring"
           link: https://link.springer.com/chapter/10.1007/978-3-031-30035-6_7
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: Proceedings of the 23nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2023)
+          conference: "Proceedings of the 23rd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2023), 12-14 April, 2023, Brno, Czech Republic, Lecture Notes in Computer Science 13987: 98-113. Springer."
           code: https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2023.pdf
           id: EVOCOP2023
           hal: https://hal.science/hal-04517499
+          doi: https://doi.org/10.1007/978-3-031-30035-6_7
+          core: https://portal.core.edu.au/conf-ranks/2195/
+          core_rank: B
 
         - title: On Monte Carlo Tree Search for weighted vertex coloring
           link: https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022)
+          conference: "Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022), 20-22 April, 2022, Madrid, Spain, Lecture Notes in Computer Science 13222: 1-16. Springer."
           code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
           # preprint: https://arxiv.org/abs/2202.01665
           presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
           id: EVOCOP2022
           hal: https://hal.science/hal-04032376
+          doi: https://doi.org/10.1007/978-3-031-04148-8_1
+          core: https://portal.core.edu.au/conf-ranks/2195/
+          core_rank: B
+
 
     - title: Presentations in National Conferences
       # intro: |
       #   the conferences
       papers:
+        - title: Recherche locale guidée pour la coloration de graphe
+          # link: 
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: ROADEF 2025
+          # presentation: 
+          id: ROADEF2025
+          # hal: 
+
         - title: Algorithme mémétique avec sélection automatique d'opérateurs pour la coloration de graphe
           link: https://roadef2024.sciencesconf.org/509999
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao

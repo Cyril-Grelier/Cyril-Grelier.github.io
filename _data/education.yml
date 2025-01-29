@@ -77,11 +77,11 @@ education:
       With high honours
     detailsfr: |
       Mention bien
-  - degree: BETC National Diploma
-    degreefr: Bac Pro Plasturgie
-    university: La Baronnerie
-    time: 2011
-    details: |
-      With high honours
-    detailsfr: |
-      Mention bien
+  # - degree: BETC National Diploma
+  #   degreefr: Bac Pro Plasturgie
+  #   university: La Baronnerie
+  #   time: 2011
+  #   details: |
+  #     With high honours
+  #   detailsfr: |
+  #     Mention bien

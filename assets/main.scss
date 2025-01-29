@@ -37,3 +37,9 @@
 .toggle-btn:active {
     transform: scale(0.95);
 }
+
+.liste-inline {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}

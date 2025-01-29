@@ -5,13 +5,6 @@ permalink: /publications/
 ---
 
 {% assign publications = site.data.publications.publications %}
-<style>
-    .liste-inline {
-        display: flex;
-        gap: 25px;
-        list-style-type: none;
-    }
-</style>
 
 <section>
     {% for publication in publications.kind %}
@@ -44,6 +37,15 @@ permalink: /publications/
                     <li><a href="{{ paper.hal }}" target="_blank"> HAL
                         <!-- <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#hal' | relative_url }}"></use></svg> -->
                     </a></li>
+                    {% endif %}
+                    {% if paper.doi %}
+                    <li><a href="{{ paper.doi }}" target="_blank">doi</a></li>
+                    {% endif %}
+                    {% if paper.scimago %}
+                    <li><a href="{{ paper.scimago }}" target="_blank">Scimago : {{ paper.scimago_rank }}</a></li>
+                    {% endif %}
+                    {% if paper.core %}
+                    <li><a href="{{ paper.core }}" target="_blank">CORE : {{ paper.core_rank }}</a></li>
                     {% endif %}
                     {% if paper.preprint %}
                     <li><a href="{{ paper.preprint }}" target="_blank">preprint</a></li>

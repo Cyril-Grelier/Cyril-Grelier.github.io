@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: page
 title: Projects
 permalink: /projects/
----
+--- -->
 
 {% assign projects = site.data.projects.projects %}
 

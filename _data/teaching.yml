@@ -6,6 +6,11 @@ teaching:
     time: 2024-2025(20h TD)
     details: |
       Programmation linéaire, Dualité, AMPL, graphes, flots
+    links:
+      - title: How to Use AMPL in VSCode
+        link: https://cyril-grelier.github.io/ampl/vscode/2025/01/06/ampl_vscode.html
+      - title: Primal and Dual Relationship in Linear Programming
+        link: https://cyril-grelier.github.io/ampl/vscode/linear-programming/2025/01/10/primal_dual.html
 
   - course: Bases de données
     degree: Équivalent Licence 3

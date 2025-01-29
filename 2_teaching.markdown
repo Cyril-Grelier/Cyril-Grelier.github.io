@@ -16,9 +16,20 @@ permalink: /teaching/
             <span class="time">{{ course.time }}</span>
             {% if course.details %}
             <br>
-            {{ course.details | markdownify }}
+            <!-- {{ course.details | markdownify }} -->
+            <span>{{ course.details }}</span>
+            {% endif %}
+            {% if course.links %}
+            <br>
+            Links :
+            <ul>
+                {% for link in course.links %}
+                <li><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
             {% endif %}
         </li>
+        <br>
         {% endfor %}
     </ul>
 </section>
