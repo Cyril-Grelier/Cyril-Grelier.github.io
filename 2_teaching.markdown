@@ -12,7 +12,7 @@ permalink: /teaching/
     {% for course in teaching %}
     {% if course.links %}
     <li>
-      {{ course.course }}<br>
+      {{ course.course }} :<br>
       <ul>
         {% for link in course.links %}
         <li><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></li>
@@ -27,7 +27,7 @@ permalink: /teaching/
 
 <section>
 
-<p>Voici un tableau récapitulatif des cours auquels j'ai participé :</p>
+<p>Voici un résumé des cours que j'ai donnés :</p>
 
 <table style="text-align:center">
   <thead>
