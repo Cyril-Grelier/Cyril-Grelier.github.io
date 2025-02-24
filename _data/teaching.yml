@@ -31,21 +31,21 @@ teaching:
     university: Université d'Angers
     time: 2021-2022,2022-2023(16h-TP)
     details: |
-      Base de développement en Python
+      Bases de développement en Python
 
   - course: Bases d'informatique 2 - Linux
     degree: Licence 1
     university: Université d'Angers
     time: 2020-2021(12h-TP),2021-2022,2022-2023(8h-TP)
     details: |
-      Base des commandes Unix
+      Bases des commandes Unix, gestion des fichiers, droits d'accès, flux, archives, ...
 
   - course: Développement web 1
     degree: Licence 1
     university: Université d'Angers
     time: 2020-2021(12h-TP),2021-2022,2022-2023(20h-TP)
     details: |
-      web course (HTML5, CSS3)
+      Introduction au web, HTML5, CSS3
 
   - course: Culture numérique
     degree: Licence 1
@@ -59,4 +59,4 @@ teaching:
     university: Université d'Angers
     time: 2020-2021(24h-TP),2021-2022,2022-2023(12h-TP)
     details: |
-      Base de la programmation en C++ (variables, conditions, boucles, fonctions,...)
+      Bases de la programmation en C++ (variables, conditions, boucles, fonctions,...)
