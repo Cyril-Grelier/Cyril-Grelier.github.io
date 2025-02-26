@@ -80,7 +80,7 @@ publications:
           # link: 
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: ROADEF 2025
-          # presentation: 
+          presentation: ../assets/pdf/presentation_AHEAD_ROADEF_2025.pdf
           id: ROADEF2025
           # hal: 
 
