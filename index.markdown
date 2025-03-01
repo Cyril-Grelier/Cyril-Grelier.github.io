@@ -5,9 +5,14 @@
 layout: home
 ---
 
-<h1>Welcome !</h1>
 
-I'm currently a post-doc at <a href="https://www.loria.fr/" target="_blank">LORIA</a> in the team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a> (Université de Lorraine - Nancy France) working on metaheuristics and learning for the vehicle routing problem.
+<div class="container">
+    <div class="content">
+        <h1>Welcome !</h1>
+        I'm currently a post-doc at <a href="https://www.loria.fr/" target="_blank">LORIA</a> in the team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a> (Université de Lorraine - Nancy France) working on metaheuristics and learning for the vehicle routing problem.
+    </div>
+    <img src="{{ '/assets/images/maphoto_c_low.jpg' | relative_url }}" alt="moi" class="profile-photo">
+</div>
 
 <div id="index-div1" style="display: flex; justify-content: space-between;">
     <div class="index-div2" style="width: 49%;">
