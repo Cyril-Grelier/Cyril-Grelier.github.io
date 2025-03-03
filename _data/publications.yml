@@ -71,18 +71,17 @@ publications:
           core: https://portal.core.edu.au/conf-ranks/2195/
           core_rank: B
 
-
     - title: Presentations in National Conferences
       # intro: |
       #   the conferences
       papers:
         - title: Recherche locale guidée pour la coloration de graphe
-          # link: 
+          link: http://v4.event-vert.org/uploads/AbstractsBundle/ROADEF2025/7079+GRELIER++regular+notMember+2024-11-28+21-08-51.pdf
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: ROADEF 2025
           presentation: ../assets/pdf/presentation_AHEAD_ROADEF_2025.pdf
           id: ROADEF2025
-          # hal: 
+          # hal:
 
         - title: Algorithme mémétique avec sélection automatique d'opérateurs pour la coloration de graphe
           link: https://roadef2024.sciencesconf.org/509999
