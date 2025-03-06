@@ -3,6 +3,17 @@ publications:
   kind:
     - title: Journal paper
       papers:
+        - title: Combining Monte Carlo Tree Search and Heuristic Search for Weighted Vertex Coloring
+          # link:
+          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+          conference: Article accepted for publication in Springer Nature Computer Science
+          preprint: https://arxiv.org/abs/2304.12146
+          # hal:
+          code: https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts
+          id: MCTS_EVOCOP_extended
+          # doi:
+          scimago: https://www.scimagojr.com/journalsearch.php?q=21101083109&tip=sid&clean=0
+          scimago_rank: Q2
         - title: A deep learning guided memetic framework for graph coloring problems
           link: https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
@@ -114,15 +125,15 @@ publications:
           id: ROADEF2022
           hal: https://hal.science/hal-03595396
 
-    - title: Preprint
-      papers:
-        - title: Combining Monte Carlo Tree Search and Heuristic Search for Weighted Vertex Coloring
-          authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: extended version of the paper "On Monte Carlo Tree Search for weighted vertex coloring" accepted at EvoCOP 2022
-          code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
-          # presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
-          preprint: https://arxiv.org/abs/2304.12146
-          id: EVOCOP2022_extended
+    # - title: Preprint
+    #   papers:
+    #     - title: Combining Monte Carlo Tree Search and Heuristic Search for Weighted Vertex Coloring
+    #       authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
+    #       conference: extended version of the paper "On Monte Carlo Tree Search for weighted vertex coloring" accepted at EvoCOP 2022
+    #       code: https://github.com/Cyril-Grelier/gc_wvcp_mcts
+    #       # presentation: ../assets/pdf/presentation_MCTS_EVOCOP_2022.pdf
+    #       preprint: https://arxiv.org/abs/2304.12146
+    #       id: EVOCOP2022_extended
 
     - title: Thesis
       papers:

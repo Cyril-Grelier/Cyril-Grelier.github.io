@@ -38,6 +38,9 @@ permalink: /publications/
                         <!-- <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#hal' | relative_url }}"></use></svg> -->
                     </a></li>
                     {% endif %}
+                    {% if paper.preprint %}
+                    <li><a href="{{ paper.preprint }}" target="_blank">preprint</a></li>
+                    {% endif %}
                     {% if paper.doi %}
                     <li><a href="{{ paper.doi }}" target="_blank">doi</a></li>
                     {% endif %}
@@ -47,12 +50,6 @@ permalink: /publications/
                     {% if paper.core %}
                     <li><a href="{{ paper.core }}" target="_blank">CORE : {{ paper.core_rank }}</a></li>
                     {% endif %}
-                    {% if paper.preprint %}
-                    <li><a href="{{ paper.preprint }}" target="_blank">preprint</a></li>
-                    {% endif %}
-                    {% if paper.code %}
-                    <li><a href="{{ paper.code }}" target="_blank">code</a></li>
-                    {% endif %}
                     {% if paper.presentation %}
                     <li><a href="{{ paper.presentation }}" target="_blank">slides</a></li>
                     {% endif %}
@@ -61,6 +58,9 @@ permalink: /publications/
                     {% endif %}
                     {% if paper.demo %}
                     <li><a href="{{ paper.demo }}" target="_blank">demo</a></li>
+                    {% endif %}
+                    {% if paper.code %}
+                    <li><a href="{{ paper.code }}" target="_blank">code</a></li>
                     {% endif %}
                 </ul>
                 {% endif %}
