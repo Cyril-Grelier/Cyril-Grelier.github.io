@@ -31,8 +31,13 @@ permalink: /publications/
                 <br>
                 {{ paper.conference }}
                 <br>
-                {% if paper.code or paper.preprint or paper.presentation or paper.demo or paper.poster or paper.hal %}
+                {% if paper.code or paper.preprint or paper.presentation or paper.demo or paper.poster or paper.hal or paper.openaccess %}
                 <ul class="liste-inline">
+                    {% if paper.openaccess %}
+                    <li><a href="{{ paper.openaccess }}" target="_blank"> Open Access
+                        <!-- <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#hal' | relative_url }}"></use></svg> -->
+                    </a></li>
+                    {% endif %}
                     {% if paper.hal %}
                     <li><a href="{{ paper.hal }}" target="_blank"> HAL
                         <!-- <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#hal' | relative_url }}"></use></svg> -->

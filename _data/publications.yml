@@ -4,21 +4,22 @@ publications:
     - title: Journal paper
       papers:
         - title: Combining Monte Carlo Tree Search and Heuristic Search for Weighted Vertex Coloring
-          # link:
+          link: https://link.springer.com/article/10.1007/s42979-025-03811-x?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250313&utm_content=10.1007/s42979-025-03811-x
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
-          conference: Article accepted for publication in Springer Nature Computer Science
+          conference: SN Computer Science, 2025, 6 (3), pp.283. 2025
           preprint: https://arxiv.org/abs/2304.12146
-          # hal:
+          hal: https://hal.science/hal-04988929
           code: https://github.com/Cyril-Grelier/gc_wvcp_adaptive_mcts
           id: MCTS_EVOCOP_extended
-          # doi:
+          doi: https://doi.org/10.1007/s42979-025-03811-x
+          openaccess: https://doi.org/10.1007/s42979-025-03811-x
           scimago: https://www.scimagojr.com/journalsearch.php?q=21101083109&tip=sid&clean=0
           scimago_rank: Q2
         - title: A deep learning guided memetic framework for graph coloring problems
           link: https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
           conference: Knowledge-Based Systems. Volume 258, 22 December 2022, pp.109986
-          # preprint: https://arxiv.org/abs/2109.05948
+          preprint: https://arxiv.org/abs/2109.05948
           hal: https://hal.science/hal-03846652
           code: https://github.com/GoudetOlivier/DLMCOL_WVCP
           id: KBS2022
@@ -92,7 +93,7 @@ publications:
           conference: ROADEF 2025
           presentation: ../assets/pdf/presentation_AHEAD_ROADEF_2025.pdf
           id: ROADEF2025
-          # hal:
+          hal: https://hal.science/hal-04986415v1
 
         - title: Algorithme mémétique avec sélection automatique d'opérateurs pour la coloration de graphe
           link: https://roadef2024.sciencesconf.org/509999
