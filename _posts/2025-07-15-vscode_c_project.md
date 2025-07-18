@@ -10,7 +10,7 @@ Most of this tutorial is oriented to use with VSCode but would work without inst
 
 If you have any suggestions, please let me know.
 
-*[link to automated translation into French](https://cyril-grelier.github.io/vscode/c/2025/07/15/vscode_projet_c.html)*
+*[link to automatic French translation](https://cyril-grelier.github.io/vscode/c/2025/07/15/vscode_projet_c.html)*
 
 ## Summary
 
