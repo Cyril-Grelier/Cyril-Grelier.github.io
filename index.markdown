@@ -9,7 +9,7 @@ layout: home
 <div class="container">
     <div class="content">
         <h1>Welcome !</h1>
-        I'm currently a post-doc at <a href="https://www.loria.fr/" target="_blank">LORIA</a> in the team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a> (Université de Lorraine - Nancy France) working on metaheuristics and learning for the vehicle routing problem.
+        I'm an associate professor in computer science at <a href="https://www.loria.fr/" target="_blank">LORIA</a> in the team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a> and at the <a href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a> in the <a href="https://iut-metz.univ-lorraine.fr/departement-informatique" target="_blank">Department of Computer Science</a> (Université de Lorraine - Nancy and Metz, France).
     </div>
     <img src="{{ '/assets/images/maphoto_c_low.jpg' | relative_url }}" alt="moi" class="profile-photo">
 </div>

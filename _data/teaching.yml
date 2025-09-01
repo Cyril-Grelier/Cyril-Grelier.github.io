@@ -1,5 +1,22 @@
 teaching:
 
+  - course: R3.02 Développement Efficace
+    degree: Équivalent Licence 2 (BUT 2)
+    university: IUT de Metz
+    time: 2025-2026(16h EI)
+    details: |
+      Structures de données, performance
+
+  - course: R3.05 Programmation Système
+    degree: Équivalent Licence 2 (BUT 2)
+    university: IUT de Metz
+    time: 2025-2026(12h EI, 10h TP)
+    details: |
+      C, fichiers, processus, mémoire, threads, IPC, sockets
+    links:
+      - title: Supports de cours
+        link: https://members.loria.fr/cyril.grelier/r3_05/index.html
+
   - course: Recherche Opérationnelle
     degree: Équivalent Licence 3
     university: Mines Nancy

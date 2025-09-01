@@ -1,8 +1,14 @@
 education:
+  - degree: Associate professor in computer science
+    degreefr: Maître de conferences en informatique
+    university: <a href="https://www.loria.fr/" target="_blank">LORIA</a> - <a href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a>
+    time: 2025-...
+    details: Teach system programming, data structures, and OOP.
+    detailsfr: Enseigne la programmation système, les structures de données et la POO
   - degree: Postdoctoral Researcher
     degreefr: Post-doctorat
     university: <a href="https://www.loria.fr/" target="_blank">LORIA</a>
-    time: 2024-2026
+    time: 2024-2025
     details: |
       Optimisation and learning algorithms for vehicle routing problems.<br>
       Supervisor : <a href="https://scholar.google.fr/citations?user=QfUsJ6cAAAAJ&hl=fr" target="_blank">Ammar Oulamara</a>
