@@ -110,4 +110,15 @@
         </a>
     </li>
     {%- endif -%}
+
+    {%- if info.other_website -%}
+    <li>
+        <a href="{{ info.other_website| cgi_escape | escape }}" target="_blank"><svg class="svg-icon">
+                <use xlink:href="{{ '/assets/minima-social-icons.svg#institute' | relative_url }}">
+                </use>
+            </svg>
+            <span class="username">site LORIA</span>
+        </a>
+    </li>
+    {%- endif -%}
 </ul>
