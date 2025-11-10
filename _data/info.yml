@@ -3,11 +3,13 @@ info:
   description: >-
     Associate professor at LORIA in the team OPTIMIST, Nancy and at IUT de Metz, Department of Computer Science, France.
   name: Cyril Grelier
-  email: cyril.grelier at univ-lorraine dot fr
+  email: cyril.grelier@ loria.fr | univ-lorraine.fr
   orcid: 0000-0002-6234-8278
   github_username: Cyril-Grelier
   gitlab_username: Cyril-Grelier
   google_scholar: LvzFV1wAAAAJ
+  other_website: https://members.loria.fr/cyril.grelier/
+  # youtube_username: "@CyrilGrelier"
   # dribbble_username:
   # facebook_username:
   # flickr_username:
@@ -15,4 +17,3 @@ info:
   # linkedin_username:
   # pinterest_username:
   # twitter_username: cyril_grelier
-  # youtube_username:

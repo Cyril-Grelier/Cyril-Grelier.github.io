@@ -3,37 +3,37 @@ education:
     degreefr: Maître de conferences en informatique
     university: <a href="https://www.loria.fr/" target="_blank">LORIA</a> - <a href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a>
     time: 2025-...
-    details: Teach system programming, data structures, and OOP.
+    details: Teach system programming, data structures, and OOP
     detailsfr: Enseigne la programmation système, les structures de données et la POO
   - degree: Postdoctoral Researcher
     degreefr: Post-doctorat
     university: <a href="https://www.loria.fr/" target="_blank">LORIA</a>
     time: 2024-2025
     details: |
-      Optimisation and learning algorithms for vehicle routing problems.<br>
+      Optimisation and learning algorithms for vehicle routing problems<br>
       Supervisor : <a href="https://scholar.google.fr/citations?user=QfUsJ6cAAAAJ&hl=fr" target="_blank">Ammar Oulamara</a>
     detailsfr: |
-      Algorithmes d’optimisation et d’apprentissage pour les problèmes de tournées de véhicules.<br>
+      Algorithmes d’optimisation et d’apprentissage pour les problèmes de tournées de véhicules<br>
       Encadrant : <a href="https://scholar.google.fr/citations?user=QfUsJ6cAAAAJ&hl=fr" target="_blank">Ammar Oulamara</a>
   - degree: Research Engineer
     degreefr: Ingénieur de Recherche
     university: <a href="https://leria.univ-angers.fr/" target="_blank">LERIA</a>
     time: 2023-2024
     detailsfr: |
-      Travail sur EvoMol, un algorithme évolutionnaire pour la génération de molécules.<br>
+      Travail sur EvoMol, un algorithme évolutionnaire pour la génération de molécules<br>
       <a href="https://quchempedia.univ-angers.fr/athome/" target="_blank">QuChemPedIA</a> : <a href="https://scholar.google.fr/citations?user=vLmBgrEAAAAJ&hl=fr" target="_blank">Benoit Da Mota</a> - <a href="https://scholar.google.fr/citations?user=fiMQc1cAAAAJ&hl=fr" target="_blank">Thomas Cauchy</a>
     details: |
-      Work on EvoMol, an evolutionary algorithm for molecule generation.<br>
+      Work on EvoMol, an evolutionary algorithm for molecule generation<br>
       <a href="https://quchempedia.univ-angers.fr/athome/" target="_blank">QuChemPedIA</a> : <a href="https://scholar.google.fr/citations?user=vLmBgrEAAAAJ&hl=fr" target="_blank">Benoit Da Mota</a> - <a href="https://scholar.google.fr/citations?user=fiMQc1cAAAAJ&hl=fr" target="_blank">Thomas Cauchy</a>
   - degree: Phd in computer science
     degreefr: Doctorat en informatique
     university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a> - <a href="https://leria.univ-angers.fr/" target="_blank">LERIA</a>
     time: 2023
     details: |
-      Learning-Guided Metaheuristics for Graph Coloring.<br>
+      Learning-Guided Metaheuristics for Graph Coloring<br>
       Supervisors : <a href="https://leria-info.univ-angers.fr/~jinkao.hao/" target="_blank">Jin-Kao Hao</a> - <a href="https://leria-info.univ-angers.fr/~o.goudet/" target="_blank">Olivier Goudet</a>
     detailsfr: |
-      Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe.<br>
+      Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe<br>
       Encadrants : <a href="https://leria-info.univ-angers.fr/~jinkao.hao/" target="_blank">Jin-Kao Hao</a> - <a href="https://leria-info.univ-angers.fr/~o.goudet/" target="_blank">Olivier Goudet</a>
   - degree: Master's degree in computer science
     degreefr: Master Intelligence Décisionnelle
@@ -59,7 +59,7 @@ education:
       English, Matlab, Web and Java courses, one semester
     detailsfr: |
       Cours d'Anglais, Matlab, Web et Java, un semestre
-  - degree: Associate’s Degree in Electrical Engineering and Industrial Computing
+  - degree: University Diploma of Technology in Electrical Engineering and Industrial Computing
     degreefr: DUT GEII - Génie Électrique et Informatique Industrielle
     university: <a href="https://www.univ-angers.fr/fr/acces-directs/facultes-et-instituts/iut/departements/geii.html" target="_blank">IUT Angers</a>
     time: 2016
@@ -75,7 +75,7 @@ education:
       Maths and physics courses
     detailsfr: |
       Cours de maths et de physique
-  - degree: BTEC Higher National Diploma in plastics manufacturing
+  - degree: Higher National Diploma in plastics manufacturing
     degreefr: BTS industrie plastique
     university: La Baronnerie
     time: 2013
@@ -83,11 +83,11 @@ education:
       With high honours
     detailsfr: |
       Mention bien
-  # - degree: BETC National Diploma
-  #   degreefr: Bac Pro Plasturgie
-  #   university: La Baronnerie
-  #   time: 2011
-  #   details: |
-  #     With high honours
-  #   detailsfr: |
-  #     Mention bien
+  - degree: Vocational Qualification in plastics processing
+    degreefr: Bac Pro Plasturgie
+    university: La Baronnerie
+    time: 2011
+    details: |
+      With high honours
+    detailsfr: |
+      Mention bien

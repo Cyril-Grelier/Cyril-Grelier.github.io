@@ -45,6 +45,28 @@ permalink: /teaching/
   </thead>
   <tbody>
     <tr>
+      <td>MCF</td>
+      <td>2025-2026</td>
+      <td>IUT<br>Metz</td>
+      <td>BUT<br>Informatique</td>
+      <td>Équivalent<br>L2</td>
+      <td>R3.05<br>Programmation Système</td>
+      <td>2*10h<br>2*10h</td>
+      <td>15<br>27</td>
+      <td>EI<br>TP</td>
+    </tr>
+    <tr>
+      <td>MCF</td>
+      <td>2025-2026</td>
+      <td>IUT<br>Metz</td>
+      <td>BUT<br>Informatique</td>
+      <td>Équivalent<br>L2</td>
+      <td>R3.02<br>Développement Efficace</td>
+      <td>2*16h</td>
+      <td>30<br>27</td>
+      <td>EI</td>
+    </tr>
+    <tr>
       <td>Vacataire</td>
       <td>2024-2025</td>
       <td>Mines<br>Nancy</td>
@@ -133,7 +155,7 @@ permalink: /teaching/
       <td>TP</td>
     </tr>
   </tbody>
-  <tfoot>
+  <!-- <tfoot>
     <tr>
       <th></th>
       <th></th>
@@ -145,7 +167,7 @@ permalink: /teaching/
       <th></th>
       <th></th>
     </tr>
-  </tfoot>
+  </tfoot> -->
 </table>
 
 <p>ainsi que le contenu de chaque cours :</p>
