@@ -163,7 +163,7 @@ permalink: /teaching/
       <th></th>
       <th></th>
       <th></th>
-      <th>248h</th>
+      <th>248h+MCF</th>
       <th></th>
       <th></th>
     </tr>
