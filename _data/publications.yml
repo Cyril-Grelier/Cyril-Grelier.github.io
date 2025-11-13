@@ -145,3 +145,18 @@ publications:
           presentation: ../assets/pdf/presentation_these.pdf
           id: these
           hal: https://theses.hal.science/tel-04523127
+
+    - title: Seminar
+      papers:
+        - title: Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe
+          # link:
+          authors: Cyril Grelier
+          conference: Séminaire LORIA - équipe OPTIMIST - 13/11/2025
+          presentation: ../assets/pdf/2025_11_13_seminar_loria_optimist.pdf
+          id: 2025_11_13_seminar_loria_optimist
+        - title: Learning-Guided Metaheuristics for the Graph Coloring Problem
+          # link:
+          authors: Cyril Grelier
+          conference: Séminaire IMT Brest - équipe DECIDE - 04/2025
+          presentation: ../assets/pdf/2024_04_seminar_imt_decide.pdf
+          id: 2024_04_seminar_imt_decide
