@@ -148,6 +148,12 @@ publications:
 
     - title: Seminar
       papers:
+        - title: Learning-Guided Metaheuristics for the Graph Coloring Problem
+          # link:
+          authors: Cyril Grelier
+          conference: Seminar LORIA - Department 3 - 18/12/2025
+          presentation: ../assets/pdf/2025_12_18_presentation_seminar_LORIA_D3.pdf
+          id: 2025_12_18_presentation_seminar_LORIA_D3
         - title: Métaheuristiques Guidées par l’Apprentissage pour la Coloration de Graphe
           # link:
           authors: Cyril Grelier
