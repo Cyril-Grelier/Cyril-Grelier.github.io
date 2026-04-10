@@ -51,8 +51,8 @@ permalink: /teaching/
       <td>BUT<br>Informatique</td>
       <td>Équivalent<br>L2</td>
       <td>R2.01<br>Développement Orienté Objet</td>
-      <td>6h<br>40h</td>
-      <td>2*12<br>24</td>
+      <td>2x6h<br>40h</td>
+      <td>12<br>24</td>
       <td>TP<br>EI</td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@ permalink: /teaching/
       <td>BUT<br>Informatique</td>
       <td>Équivalent<br>L2</td>
       <td>R3.05<br>Programmation Système</td>
-      <td>2*10h<br>2*10h</td>
+      <td>2x10h<br>2x10h</td>
       <td>15<br>27</td>
       <td>EI<br>TP</td>
     </tr>
@@ -73,7 +73,7 @@ permalink: /teaching/
       <td>BUT<br>Informatique</td>
       <td>Équivalent<br>L2</td>
       <td>R3.02<br>Développement Efficace</td>
-      <td>2*16h</td>
+      <td>2x16h</td>
       <td>30<br>27</td>
       <td>EI</td>
     </tr>

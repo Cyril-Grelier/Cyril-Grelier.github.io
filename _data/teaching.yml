@@ -2,7 +2,7 @@ teaching:
   - course: R2.01 Développement Orienté Objet
     degree: Équivalent Licence 1 (BUT 1)
     university: IUT de Metz
-    time: 2025-2026(6h TP, 40h EI)
+    time: 2025-2026(2x6h TP, 40h EI)
     details: |
       Introduction à l'objet, encapsulation, héritage, polymorphisme, abstraction, interfaces, conception
 
