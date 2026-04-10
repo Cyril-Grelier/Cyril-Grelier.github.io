@@ -50,6 +50,17 @@ permalink: /teaching/
       <td>IUT<br>Metz</td>
       <td>BUT<br>Informatique</td>
       <td>Équivalent<br>L2</td>
+      <td>R2.01<br>Développement Orienté Objet</td>
+      <td>6h<br>40h</td>
+      <td>2*12<br>24</td>
+      <td>TP<br>EI</td>
+    </tr>
+    <tr>
+      <td>MCF</td>
+      <td>2025-2026</td>
+      <td>IUT<br>Metz</td>
+      <td>BUT<br>Informatique</td>
+      <td>Équivalent<br>L2</td>
       <td>R3.05<br>Programmation Système</td>
       <td>2*10h<br>2*10h</td>
       <td>15<br>27</td>
