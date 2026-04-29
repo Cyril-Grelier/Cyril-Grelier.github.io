@@ -1,32 +1,142 @@
+level_equivalences:
+  - licence: L1
+    equivalents:
+      - system: BUT
+        level: BUT 1
+      - system: Ingénieur
+        level: prépa 1
+  - licence: L2
+    equivalents:
+      - system: BUT
+        level: BUT 2
+      - system: Ingénieur
+        level: prépa 2
+  - licence: L3
+    equivalents:
+      - system: BUT
+        level: BUT 3
+      - system: Ingénieur
+        level: 1A
+  - licence: M1
+    equivalents:
+      - system: Ingénieur
+        level: 2A
+  - licence: M2
+    equivalents:
+      - system: Ingénieur
+        level: 3A
+
+hetd_coefficients:
+  - type: CM
+    coefficient: 1.5
+    note: "2h CM = 3h HETD"
+  - type: EI
+    coefficient: 1.1667
+    note: "1h EI = 7/6h HETD (12h EI = 14h HETD)"
+  - type: TD
+    coefficient: 1.0
+    note: "1h TD = 1h HETD"
+  - type: TP
+    coefficient: 1.0
+    note: "1h TP = 1h HETD"
+
 teaching:
-  - course: R2.01 Développement Orienté Objet
-    degree: Équivalent Licence 1 (BUT 1)
+  - course: SAE2.02 Exploration algorithmique d'un problème
     university: IUT de Metz
-    time: 2025-2026(2x6h TP, 40h EI)
+    audience: BUT Informatique
+    level: BUT 1
+    level_equivalent: L1
+    details: |
+      Projet entre les cours R2.01 : Développement orienté objets, R2.07 : Graphes, R2.08 : Outils numériques pour les statistiques descriptives, R2.09 : Méthodes numériques
+    years:
+      - year: 2025-2026
+        status: MCF
+        sessions:
+          - type: TD
+            groups:
+              - hours: 2
+                students: 24
+          - type: TP
+            groups:
+              - hours: 2
+                students: 13
+              - hours: 2
+                students: 11
+
+  - course: R2.01 Développement Orienté Objet
+    university: IUT de Metz
+    audience: BUT Informatique
+    level: BUT 1
+    level_equivalent: L1
     details: |
       Introduction à l'objet, encapsulation, héritage, polymorphisme, abstraction, interfaces, conception
+    years:
+      - year: 2025-2026
+        status: MCF
+        sessions:
+          - type: EI
+            groups:
+              - hours: 40
+                students: 24
+          - type: TP
+            groups:
+              - hours: 6
+                students: 13
+              - hours: 6
+                students: 11
 
   - course: R3.02 Développement Efficace
-    degree: Équivalent Licence 2 (BUT 2)
     university: IUT de Metz
-    time: 2025-2026(16h EI)
+    audience: BUT Informatique
+    level: BUT 2
+    level_equivalent: L2
     details: |
       Structures de données, performance
+    years:
+      - year: 2025-2026
+        status: MCF
+        sessions:
+          - type: EI
+            groups:
+              - hours: 16
+                students: 30
+              - hours: 16
+                students: 27
 
   - course: R3.05 Programmation Système
-    degree: Équivalent Licence 2 (BUT 2)
     university: IUT de Metz
-    time: 2025-2026(12h EI, 10h TP)
+    audience: BUT Informatique
+    level: BUT 2
+    level_equivalent: L2
     details: |
       C, fichiers, processus, mémoire, threads, IPC, sockets
     links:
       - title: Supports de cours
         link: https://members.loria.fr/cyril.grelier/r3_05/index.html
+    years:
+      - year: 2025-2026
+        status: MCF
+        sessions:
+          - type: EI
+            groups:
+              - hours: 12
+                students: 27
+              - hours: 12
+                students: 15
+          - type: TP
+            groups:
+              - hours: 10
+                students: 14
+              - hours: 10
+                students: 13
+              - hours: 10
+                students: 15
 
   - course: Recherche Opérationnelle
-    degree: Équivalent Licence 3
     university: Mines Nancy
-    time: 2024-2025(19h TD)
+    audience: Ingénieur Informatique
+    level: Ingénieur 1A
+    level_equivalent: L3
     details: |
       Programmation linéaire, Dualité, AMPL, graphes, flots
     links:
@@ -34,52 +144,192 @@ teaching:
         link: https://cyril-grelier.github.io/ampl/vscode/2025/01/06/ampl_vscode.html
       - title: Primal and Dual Relationship in Linear Programming
         link: https://cyril-grelier.github.io/ampl/vscode/linear-programming/2025/01/10/primal_dual.html
+    years:
+      - year: 2024-2025
+        status: Vacataire
+        sessions:
+          - type: TD
+            groups:
+              - hours: 22.5
+                students: 17
 
   - course: Bases de données
-    degree: Équivalent Licence 3
     university: Polytech Nancy
-    time: 2024-2025(21h-CM/TD)
+    audience: Ingénieur Informatique
+    level: Ingénieur 1A
+    level_equivalent: L3
     details: |
       Modèle Entité-Association, Modèle Relationnel, SQL
+    years:
+      - year: 2024-2025
+        status: Vacataire
+        sessions:
+          - type: CM
+            groups:
+              - hours: 5
+                students: 29
+          - type: TD
+            groups:
+              - hours: 16
+                students: 29
 
   - course: Algorithmique des graphes
-    degree: Licence 3
     university: Université d'Angers
-    time: 2022-2023(8h-TP), 2023-2024(2x8h-TP)
+    audience: Licence Informatique
+    level: L3
+    level_equivalent: L3
     details: |
       Implémentation d'algorithmes pour les graphes (BFS, DFS, Dijkstra, Prim, Kruskal, ...)
+    years:
+      - year: 2023-2024
+        status: Vacataire
+        sessions:
+          - type: TP
+            groups:
+              - hours: 8
+                students: 15
+              - hours: 8
+                students: 15
+      - year: 2022-2023
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 8
+                students: 15
 
   - course: Python
-    degree: Licence 1
     university: Université d'Angers
-    time: 2021-2022,2022-2023(16h-TP)
+    audience: Licence Informatique
+    level: L1
+    level_equivalent: L1
     details: |
-      Bases de développement en Python
+      Bases de développement en Python et projets
+    years:
+      - year: 2022-2023
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 16
+                students: 15
+      - year: 2021-2022
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 16
+                students: 15
 
   - course: Bases d'informatique 2 - Linux
-    degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(12h-TP),2021-2022,2022-2023(8h-TP)
+    audience: Licence Informatique
+    level: L1
+    level_equivalent: L1
     details: |
       Bases des commandes Unix, gestion des fichiers, droits d'accès, flux, archives, ...
+    years:
+      - year: 2022-2023
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 8
+                students: 15
+      - year: 2021-2022
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 8
+                students: 15
+      - year: 2020-2021
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 12
+                students: 15
 
   - course: Développement web 1
-    degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(12h-TP),2021-2022,2022-2023(20h-TP)
+    audience: Licence Informatique
+    level: L1
+    level_equivalent: L1
     details: |
       Introduction au web, HTML5, CSS3
+    years:
+      - year: 2022-2023
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 20
+                students: 15
+      - year: 2021-2022
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 20
+                students: 15
+      - year: 2020-2021
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 12
+                students: 15
 
   - course: Culture numérique
-    degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(16h-TP),2021-2022(8h-TP)
+    audience: Licence Informatique
+    level: L1
+    level_equivalent: L1
     details: |
       Pix, outils informatiques, suite office,...
+    years:
+      - year: 2021-2022
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 8
+                students: 15
+      - year: 2020-2021
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 16
+                students: 15
 
   - course: Algorithmique 1
-    degree: Licence 1
     university: Université d'Angers
-    time: 2020-2021(24h-TP),2021-2022,2022-2023(12h-TP)
+    audience: Licence Informatique
+    level: L1
+    level_equivalent: L1
     details: |
       Bases de la programmation en C++ (variables, conditions, boucles, fonctions,...)
+    years:
+      - year: 2022-2023
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 12
+                students: 15
+      - year: 2021-2022
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 12
+                students: 15
+      - year: 2020-2021
+        status: DCACE
+        sessions:
+          - type: TP
+            groups:
+              - hours: 24
+                students: 15
