@@ -63,6 +63,10 @@ permalink: /publications/
                     {% if paper.code %}
                     <li><a href="{{ paper.code }}" target="_blank"><i class="fab fa-github"></i> code</a></li>
                     {% endif %}
+                    {% if paper.bibtex %}
+                    <li><a href="javascript:void(0);" onclick="copyBibtex('{{ paper.id | default: forloop.index }}', this)"><i class="fas fa-quote-right"></i> BibTeX</a>
+                    <pre id="bibtex-{{ paper.id | default: forloop.index }}" style="display:none;">{{ paper.bibtex }}</pre></li>
+                    {% endif %}
                 </ul>
                 {% endif %}
             </li>
@@ -70,3 +74,17 @@ permalink: /publications/
         </ol>
     {% endfor %}
 </section>
+
+<script>
+function copyBibtex(id, el) {
+  const text = document.getElementById("bibtex-" + id).innerText;
+
+  navigator.clipboard.writeText(text.trim()).then(() => {
+    const original = el.innerText;
+    el.innerText = "Copied!";
+    setTimeout(() => {
+      el.innerText = original;
+    }, 1500);
+  });
+}
+</script>

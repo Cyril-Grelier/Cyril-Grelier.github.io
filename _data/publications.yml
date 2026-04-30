@@ -15,6 +15,25 @@ publications:
           openaccess: https://doi.org/10.1007/s42979-025-03811-x
           scimago: https://www.scimagojr.com/journalsearch.php?q=21101083109&tip=sid&clean=0
           scimago_rank: Q2
+          bibtex: |
+            @article{Grelier2025,
+              author={Grelier, Cyril
+              and Goudet, Olivier
+              and Hao, Jin-Kao},
+              title={Combining Monte Carlo Tree Search and Heuristic Search for Weighted Vertex Coloring},
+              journal={SN Computer Science},
+              year={2025},
+              month={Mar},
+              day={13},
+              volume={6},
+              number={3},
+              pages={283},
+              abstract={This work investigates the Monte Carlo Tree Search (MCTS) method combined with dedicated heuristics for solving the Weighted Vertex Coloring Problem. In addition to the basic MCTS algorithm, we study several MCTS variants where the conventional random simulation is replaced by other simulation strategies including greedy and local search heuristics. We conduct experiments on well-known benchmark instances to assess these combined MCTS variants. We provide empirical evidence to shed light on the advantages and limits of each simulation strategy. This is an extension of the work [1] presented at EvoCOP2022.},
+              issn={2661-8907},
+              doi={10.1007/s42979-025-03811-x},
+              url={https://doi.org/10.1007/s42979-025-03811-x}
+            }
+
         - title: A deep learning guided memetic framework for graph coloring problems
           link: https://www.sciencedirect.com/science/article/abs/pii/S0950705122010796
           authors: Olivier Goudet, Cyril Grelier, Jin-Kao Hao
@@ -26,12 +45,26 @@ publications:
           doi: https://doi.org/10.1016/j.knosys.2022.109986
           scimago: https://www.scimagojr.com/journalsearch.php?q=24772&tip=sid&clean=0
           scimago_rank: Q1
+          bibtex: |
+            @article{GOUDET2022109986,
+              title = {A deep learning guided memetic framework for graph coloring problems},
+              journal = {Knowledge-Based Systems},
+              volume = {258},
+              pages = {109986},
+              year = {2022},
+              issn = {0950-7051},
+              doi = {https://doi.org/10.1016/j.knosys.2022.109986},
+              url = {https://www.sciencedirect.com/science/article/pii/S0950705122010796},
+              author = {Olivier Goudet and Cyril Grelier and Jin-Kao Hao},
+              keywords = {Population-based search, GPU-based parallel search, Deep learning, Heuristics, Graph coloring},
+              abstract = {Given an undirected graph G=(V,E) with a set of vertices V and a set of edges E, a graph coloring problem involves finding a partition of the vertices into different independent sets. In this paper we present a new framework that combines a deep neural network with the best tools of classical heuristics for graph coloring. The proposed method is evaluated on two popular graph coloring problems (vertex coloring and weighted coloring). Computational experiments on well-known benchmark graphs show that the proposed approach is able to obtain highly competitive results for both problems. A study of the contribution of deep learning in the method highlights that it is possible to learn relevant patterns useful to obtain better solutions to graph coloring problems.}
+            }
 
     - title: Papers in Conference Proceedings
       # intro: |
       #   the conferences
       papers:
-        - title: A memetic algorithm with adaptive operator selection for graph coloring
+        - title: A Memetic Algorithm with Adaptive Operator Selection for Graph Coloring
           link: https://link.springer.com/chapter/10.1007/978-3-031-57712-3_5
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: "Proceedings of the 24th European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2024), 3-5 April 2024, Wales, UK, Lecture Notes in Computer Science 14632: 65–80, 2024  Springer."
@@ -43,6 +76,22 @@ publications:
           doi: https://doi.org/10.1007/978-3-031-57712-3_5
           core: https://portal.core.edu.au/conf-ranks/2195/
           core_rank: B
+          bibtex: |
+            @InProceedings{10.1007/978-3-031-57712-3_5,
+              author="Grelier, Cyril
+              and Goudet, Olivier
+              and Hao, Jin-Kao",
+              editor="St{\"u}tzle, Thomas
+              and Wagner, Markus",
+              title="A Memetic Algorithm with Adaptive Operator Selection for Graph Coloring",
+              booktitle="Evolutionary Computation in Combinatorial Optimization",
+              year="2024",
+              publisher="Springer Nature Switzerland",
+              address="Cham",
+              pages="65--80",
+              abstract="We present a memetic algorithm with adaptive operator selection for k-coloring and weighted vertex coloring. Our method uses online selection to adaptively determine the couple of crossover and local search operators to apply during the search to improve the efficiency of the algorithm. This leads to better results than without the operator selection and allows us to find a new coloring with 404 colors for C2000.9, one of the largest and densest instances of the classical DIMACS coloring benchmarks. The proposed method also finds three new best solutions for the weighted vertex coloring problem. We investigate the impacts of the different algorithmic variants on both problems.",
+              isbn="978-3-031-57712-3"
+            }
 
         - title: New Bounds and Constraint Programming Models for the Weighted Vertex Coloring Problem
           link: https://www.ijcai.org/proceedings/2023/214
@@ -57,6 +106,21 @@ publications:
           doi: https://doi.org/10.24963/ijcai.2023/214
           core: https://portal.core.edu.au/conf-ranks/1313/
           core_rank: A*
+          bibtex: |
+            @inproceedings{ijcai2023p214,
+              title     = {New Bounds and Constraint Programming Models for the Weighted Vertex Coloring Problem},
+              author    = {Goudet, Olivier and Grelier, Cyril and Lesaint, David},
+              booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+                          Artificial Intelligence, {IJCAI-23}},
+              publisher = {International Joint Conferences on Artificial Intelligence Organization},
+              editor    = {Edith Elkind},
+              pages     = {1927--1934},
+              year      = {2023},
+              month     = {8},
+              note      = {Main Track},
+              doi       = {10.24963/ijcai.2023/214},
+              url       = {https://doi.org/10.24963/ijcai.2023/214},
+            }
 
         - title: "Monte Carlo Tree Search with Adaptive Simulation: A Case Study on Weighted Vertex Coloring"
           link: https://link.springer.com/chapter/10.1007/978-3-031-30035-6_7
@@ -69,8 +133,24 @@ publications:
           doi: https://doi.org/10.1007/978-3-031-30035-6_7
           core: https://portal.core.edu.au/conf-ranks/2195/
           core_rank: B
+          bibtex: |
+            @InProceedings{10.1007/978-3-031-30035-6_7,
+              author="Grelier, Cyril
+              and Goudet, Olivier
+              and Hao, Jin-Kao",
+              editor="P{\'e}rez C{\'a}ceres, Leslie
+              and St{\"u}tzle, Thomas",
+              title="Monte Carlo Tree Search with Adaptive Simulation: A Case Study on Weighted Vertex Coloring",
+              booktitle="Evolutionary Computation in Combinatorial Optimization",
+              year="2023",
+              publisher="Springer Nature Switzerland",
+              address="Cham",
+              pages="98--113",
+              abstract="This work presents a hyper-heuristic approach to online learning, which combines Monte Carlo Tree Search with multiple local search operators selected on the fly during the search. The impacts of different operator policies, including proportional bias, one-armed bandit, and neural network, are investigated. Experiments on well-known benchmarks of the Weighted Vertex Coloring Problem are conducted to highlight the advantages and limitations of each dynamic selection strategy.",
+              isbn="978-3-031-30035-6"
+            }
 
-        - title: On Monte Carlo Tree Search for weighted vertex coloring
+        - title: On Monte Carlo Tree Search for Weighted Vertex Coloring
           link: https://link.springer.com/chapter/10.1007/978-3-031-04148-8_1
           authors: Cyril Grelier, Olivier Goudet, Jin-Kao Hao
           conference: "Proceedings of the 22nd European Conference on Evolutionary Computation in Combinatorial Optimization (EvoCOP 2022), 20-22 April, 2022, Madrid, Spain, Lecture Notes in Computer Science 13222: 1-16. Springer."
@@ -82,6 +162,22 @@ publications:
           doi: https://doi.org/10.1007/978-3-031-04148-8_1
           core: https://portal.core.edu.au/conf-ranks/2195/
           core_rank: B
+          bibtex: |
+            @InProceedings{10.1007/978-3-031-04148-8_1,
+              author="Grelier, Cyril
+              and Goudet, Olivier
+              and Hao, Jin-Kao",
+              editor="P{\'e}rez C{\'a}ceres, Leslie
+              and Verel, S{\'e}bastien",
+              title="On Monte Carlo Tree Search for Weighted Vertex Coloring",
+              booktitle="Evolutionary Computation in Combinatorial Optimization",
+              year="2022",
+              publisher="Springer International Publishing",
+              address="Cham",
+              pages="1--16",
+              abstract="This work presents the first study of using the popular Monte Carlo Tree Search (MCTS) method combined with dedicated heuristics for solving the Weighted Vertex Coloring Problem. Starting with the basic MCTS algorithm, we gradually introduce a number of algorithmic variants where MCTS is extended by various simulation strategies including greedy and local search heuristics. We conduct experiments on well-known benchmark instances to assess the value of each studied combination. We also provide empirical evidence to shed light on the advantages and limits of each strategy.",
+              isbn="978-3-031-04148-8"
+            }
 
     - title: Presentations in National Conferences
       # intro: |
