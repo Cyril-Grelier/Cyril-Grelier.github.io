@@ -1,10 +1,18 @@
 education:
   - degree: Associate professor in computer science
     degreefr: Maître de conferences en informatique
-    university: <a href="https://www.loria.fr/" target="_blank">LORIA</a> - <a href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a>
+    university: <a href="https://www.loria.fr/" target="_blank">LORIA</a> - <a
+      href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a>
     time: 2025-...
-    details: Teaching in computer science at the <a href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a> and research at <a href="https://www.loria.fr/" target="_blank">LORIA</a> in team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a>
-    detailsfr: Enseignement en informatique à l'<a href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a> et recherche au <a href="https://www.loria.fr/" target="_blank">LORIA</a> dans l'équipe <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a>
+    details: Teaching in computer science at the <a
+      href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a>
+      and research at <a href="https://www.loria.fr/" target="_blank">LORIA</a>
+      in team <a href="https://optimist.loria.fr/" target="_blank">OPTIMIST</a>
+    detailsfr: Enseignement en informatique à l'<a
+      href="https://iut-metz.univ-lorraine.fr/" target="_blank">IUT de Metz</a>
+      et recherche au <a href="https://www.loria.fr/" target="_blank">LORIA</a>
+      dans l'équipe <a href="https://optimist.loria.fr/"
+      target="_blank">OPTIMIST</a>
   - degree: Postdoctoral Researcher
     degreefr: Post-doctorat
     university: <a href="https://www.loria.fr/" target="_blank">LORIA</a>
@@ -27,7 +35,9 @@ education:
       <a href="https://quchempedia.univ-angers.fr/athome/" target="_blank">QuChemPedIA</a> : <a href="https://scholar.google.fr/citations?user=vLmBgrEAAAAJ&hl=fr" target="_blank">Benoit Da Mota</a> - <a href="https://scholar.google.fr/citations?user=fiMQc1cAAAAJ&hl=fr" target="_blank">Thomas Cauchy</a>
   - degree: Phd in computer science
     degreefr: Doctorat en informatique
-    university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a> - <a href="https://leria.univ-angers.fr/" target="_blank">LERIA</a>
+    university: <a href="https://www.univ-angers.fr/" target="_blank">Université
+      d'Angers</a> - <a href="https://leria.univ-angers.fr/"
+      target="_blank">LERIA</a>
     time: 2023
     details: |
       Learning-Guided Metaheuristics for Graph Coloring<br>
@@ -37,7 +47,8 @@ education:
       Encadrants : <a href="https://leria-info.univ-angers.fr/~jinkao.hao/" target="_blank">Jin-Kao Hao</a> - <a href="https://leria-info.univ-angers.fr/~o.goudet/" target="_blank">Olivier Goudet</a>
   - degree: Master's degree in computer science
     degreefr: Master Intelligence Décisionnelle
-    university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a>
+    university: <a href="https://www.univ-angers.fr/" target="_blank">Université
+      d'Angers</a>
     time: 2020
     details: |
       With high honours
@@ -45,7 +56,8 @@ education:
       Mention bien
   - degree: Bachelor's degree in computer science
     degreefr: Licence Informatique
-    university: <a href="https://www.univ-angers.fr/" target="_blank">Université d'Angers</a>
+    university: <a href="https://www.univ-angers.fr/" target="_blank">Université
+      d'Angers</a>
     time: 2018
     details: |
       With high honours
@@ -59,9 +71,12 @@ education:
       English, Matlab, Web and Java courses, one semester
     detailsfr: |
       Cours d'Anglais, Matlab, Web et Java, un semestre
-  - degree: University Diploma of Technology in Electrical Engineering and Industrial Computing
+  - degree: University Diploma of Technology in Electrical Engineering and
+      Industrial Computing
     degreefr: DUT GEII - Génie Électrique et Informatique Industrielle
-    university: <a href="https://www.univ-angers.fr/fr/acces-directs/facultes-et-instituts/iut/departements/geii.html" target="_blank">IUT Angers</a>
+    university: <a
+      href="https://www.univ-angers.fr/fr/acces-directs/facultes-et-instituts/iut/departements/geii.html"
+      target="_blank">IUT Angers</a>
     time: 2016
     details: |
       Industrial computing specialization
@@ -69,7 +84,8 @@ education:
       Spécialisation informatique industrielle
   - degree: Year of scientific upgrading
     degreefr: ARS -- Année de Remise à niveau Scientifique
-    university: <a href="https://www.uco.fr/" target="_blank">Université Catholique de l'Ouest</a>
+    university: <a href="https://www.uco.fr/" target="_blank">Université Catholique
+      de l'Ouest</a>
     time: 2014
     details: |
       Maths and physics courses
